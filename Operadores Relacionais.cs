@@ -7,6 +7,8 @@ namespace operadores_relacionais{
 			x = Convert.ToInt32(Console.ReadLine());
 			bool b = (x==y);
 			Console.WriteLine("\nY = 0\n\nX == Y: " + b);
+			b = (x!=y);
+			Console.WriteLine("\nX <> Y: " + b);
 		}
 	}
 }
