@@ -14,6 +14,8 @@ namespace Calculadora{
 			Console.WriteLine("A soma vale: " + operacao);//soma
 			operacao = n1 - n2;
 			Console.WriteLine("A diferença é: " + operacao);//subtração
+			operacao = n1 * n2;
+			Console.WriteLine("O produto é: " + operacao);//multiplicação
 		}
 	}
 }
