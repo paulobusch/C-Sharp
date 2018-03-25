@@ -22,6 +22,7 @@ namespace Media{
 				situacao = "REPROVADO";
 			}
 			Console.WriteLine( "O aluno está: " + situacao);
+			Console.ReadKey();
 		}
 	}
 }
