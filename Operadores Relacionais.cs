@@ -10,7 +10,9 @@ namespace operadores_relacionais{
 			bool b = (x==y);
 			Console.WriteLine("\nY = " + y + "\nX = " + x + "\n\nX == Y: " + b);
 			b = (x!=y);
-			Console.WriteLine("\nX <> Y: " + b);
+			Console.WriteLine("X <> Y: " + b);
+			b = (x>y);
+			Console.WriteLine("X  > Y: " + b);
 		}
 	}
 }
