@@ -3,14 +3,14 @@ namespace Media{
 	class Programa{
 		static void Main(String[] args){
 			float som = 0, med;
-			string situacao = "";
-			Console.WriteLine("Digite a 1º nota: ");
+			string frase = "Digite a {0}º nota: ", situacao = "";
+			Console.WriteLine(frase, 1);
 			som += Convert.ToInt32(Console.ReadLine());
-			Console.WriteLine("Digite a 2º nota: ");
+			Console.WriteLine(frase, 2);
 			som += Convert.ToInt32(Console.ReadLine());
-			Console.WriteLine("Digite a 3º nota: ");
+			Console.WriteLine(frase, 3);
 			som += Convert.ToInt32(Console.ReadLine());
-			Console.WriteLine("Digite a 4º nota: ");
+			Console.WriteLine(frase, 4);
 			som += Convert.ToInt32(Console.ReadLine());
 			med = som/4;
 			Console.WriteLine("\nA media final foi......: " + med);
