@@ -13,6 +13,8 @@ namespace operadores_relacionais{
 			Console.WriteLine("X <> Y: " + b);
 			b = (x>y);
 			Console.WriteLine("X  > Y: " + b);
+			b = (x<y);
+			Console.WriteLine("X  < Y: " + b);
 		}
 	}
 }
