@@ -10,12 +10,14 @@ namespace Calculadora{
 			Console.Write("Digite outro número: ");
 			tmp = Console.ReadLine();
 			n2 = int.Parse(tmp);
-			operacao = n1 + n2;
-			Console.WriteLine("A soma vale: " + operacao);//soma
-			operacao = n1 - n2;
-			Console.WriteLine("A diferença é: " + operacao);//subtração
-			operacao = n1 * n2;
-			Console.WriteLine("O produto é: " + operacao);//multiplicação
+			operacao = n1 + n2;//soma
+			Console.WriteLine("A soma vale: " + operacao);
+			operacao = n1 - n2;//subtração
+			Console.WriteLine("A diferença é: " + operacao);
+			operacao = n1 * n2;//multiplicação
+			Console.WriteLine("O produto é: " + operacao);
+			operacao = n1 / n2;//divisão
+			Console.WriteLine("A divisão é: " + operacao);
 		}
 	}
 }
