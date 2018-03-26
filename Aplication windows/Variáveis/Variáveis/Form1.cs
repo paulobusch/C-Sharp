@@ -24,12 +24,9 @@ namespace Variáveis
         private void btn_executa_Click(object sender, EventArgs e)
         {
             //criar variável - tipo
-            float f = 10.5f;
-            double dou = 10.5d;
-            decimal dec = 10.5m;
-
-            float n = (float) 1 / 3;
-            lbl_msg.Text = n.ToString();
+            string nome = "Paulo";
+            int num = nome.Length;
+            lbl_msg.Text = "O nome: " + nome + " tem " + num.ToString() + " letras.";
         }
     }
 }
