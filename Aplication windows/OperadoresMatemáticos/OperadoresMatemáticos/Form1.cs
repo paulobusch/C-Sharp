@@ -41,6 +41,12 @@ namespace OperadoresMatemáticos
             //multiplicação (*)
             resultado = n1 * n2;
 
+            //divisão (/)
+            resultado = n1 / n2;
+
+            //resto   (%)
+            resultado = n1 % n2;
+
             lbl_resultado.Text = resultado.ToString();
         }
     }
