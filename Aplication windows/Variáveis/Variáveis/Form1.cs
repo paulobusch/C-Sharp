@@ -28,7 +28,9 @@ namespace Variáveis
             int num = nome.Length;
             lbl_msg.Text = "O nome: " + nome + " tem " + num.ToString() + " letras.";
             char caracter = 'c';
+            //incrementa string na label
             lbl_msg.Text += caracter.ToString();
+            bool decisao = true;
         }
     }
 }
