@@ -27,6 +27,8 @@ namespace Variáveis
             string nome = "Paulo";
             int num = nome.Length;
             lbl_msg.Text = "O nome: " + nome + " tem " + num.ToString() + " letras.";
+            char caracter = 'c';
+            lbl_msg.Text += caracter.ToString();
         }
     }
 }
