@@ -24,9 +24,8 @@ namespace Variáveis
         private void btn_executa_Click(object sender, EventArgs e)
         {
             //criar variável - tipo
-            string nome = "Paulo";
-            int idade = 18;
-            lbl_msg.Text = "Nome: " + nome + "\nIdade: " + idade;
+            int valor_inicial = 1000;
+            lbl_msg.Text = "Eu tenho " + valor_inicial + " reais";
         }
     }
 }
