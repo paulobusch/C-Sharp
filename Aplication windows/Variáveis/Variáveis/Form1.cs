@@ -24,8 +24,8 @@ namespace Variáveis
         private void btn_executa_Click(object sender, EventArgs e)
         {
             //criar variável - tipo
-            int valor_inicial = 1000;
-            lbl_msg.Text = "Eu tenho " + valor_inicial + " reais";
+            float n = (float) 1 / 3;
+            lbl_msg.Text = n.ToString();
         }
     }
 }
