@@ -1,0 +1,9 @@
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.exe
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.pdb
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.csprojResolveAssemblyReference.cache
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.Form1.resources
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.Properties.Resources.resources
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.csproj.GenerateResource.cache
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.exe
+C:\Users\paulo\source\repos\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.pdb
