@@ -28,7 +28,12 @@ namespace OperadoresMatemáticos
 
         private void btn_calcula_Click(object sender, EventArgs e)
         {
+            float n1 = float.Parse(txt_parcela1.Text);
+            float n2 = float.Parse(txt_parcela2.Text);
+            float resultado;
 
+            //adição
+            resultado = n1 + n2;
         }
     }
 }
