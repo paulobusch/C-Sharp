@@ -32,7 +32,8 @@ namespace PrimeiraAplicacao
 
         private void btn_exit_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            //System.Windows.Forms.Application.Exit();
+            Application.Exit();
         }
     }
 }

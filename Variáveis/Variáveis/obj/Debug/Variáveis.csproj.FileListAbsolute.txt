@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\bin\Debug\Variáveis.exe
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\bin\Debug\Variáveis.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\obj\Debug\Variáveis.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\obj\Debug\Variáveis.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\obj\Debug\Variáveis.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\obj\Debug\Variáveis.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\obj\Debug\Variáveis.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\obj\Debug\Variáveis.exe
+C:\Users\paulo\Desktop\Projetos\C#\Variáveis\Variáveis\obj\Debug\Variáveis.pdb
