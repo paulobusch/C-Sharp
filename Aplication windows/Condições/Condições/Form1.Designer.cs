@@ -28,13 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn_executar = new System.Windows.Forms.Button();
+            this.lbl_executar = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btn_executar
+            // 
+            this.btn_executar.Location = new System.Drawing.Point(95, 105);
+            this.btn_executar.Name = "btn_executar";
+            this.btn_executar.Size = new System.Drawing.Size(151, 47);
+            this.btn_executar.TabIndex = 0;
+            this.btn_executar.Text = "Executar";
+            this.btn_executar.UseVisualStyleBackColor = true;
+            // 
+            // lbl_executar
+            // 
+            this.lbl_executar.AutoSize = true;
+            this.lbl_executar.Location = new System.Drawing.Point(13, 13);
+            this.lbl_executar.Name = "lbl_executar";
+            this.lbl_executar.Size = new System.Drawing.Size(82, 20);
+            this.lbl_executar.TabIndex = 1;
+            this.lbl_executar.Text = "Resultado";
+            this.lbl_executar.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(325, 183);
+            this.Controls.Add(this.lbl_executar);
+            this.Controls.Add(this.btn_executar);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_executar;
+        private System.Windows.Forms.Label lbl_executar;
     }
 }
 

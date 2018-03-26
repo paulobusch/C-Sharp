@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\bin\Debug\Condições.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\bin\Debug\Condições.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\obj\Debug\Condições.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\obj\Debug\Condições.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\obj\Debug\Condições.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\obj\Debug\Condições.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\obj\Debug\Condições.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\obj\Debug\Condições.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Condições\Condições\obj\Debug\Condições.pdb
