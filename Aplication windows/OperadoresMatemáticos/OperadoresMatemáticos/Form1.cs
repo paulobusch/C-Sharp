@@ -38,6 +38,9 @@ namespace OperadoresMatemáticos
             //subtração (-)
             resultado = n1 - n2;
 
+            //multiplicação (*)
+            resultado = n1 * n2;
+
             lbl_resultado.Text = resultado.ToString();
         }
     }
