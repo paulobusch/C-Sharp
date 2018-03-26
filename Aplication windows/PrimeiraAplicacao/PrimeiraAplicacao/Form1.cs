@@ -18,6 +18,19 @@ namespace PrimeiraAplicacao
 
         private void btn_clique_Click(object sender, EventArgs e)
         {
+            #region codigo com nome alterado
+            sdfgdglbl_texto.Text = "Olá, mundo";
+            sdfgdglbl_texto.Text = "Olá, mundo";
+            sdfgdglbl_texto.Text = "Olá, mundo";
+            sdfgdglbl_texto.Text = "Olá, mundo";
+            sdfgdglbl_texto.Text = "Olá, mundo";
+            #endregion
+
+            #region nova regiao de codigo
+
+            #endregion
+
+            //altera texto do label
             lbl_texto.Text = "Olá, mundo";
         }
     }
