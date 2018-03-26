@@ -15,5 +15,10 @@ namespace PrimeiraAplicacao
         {
             InitializeComponent();
         }
+
+        private void btn_clique_Click(object sender, EventArgs e)
+        {
+            lbl_texto.Text = "Olá, mundo";
+        }
     }
 }
