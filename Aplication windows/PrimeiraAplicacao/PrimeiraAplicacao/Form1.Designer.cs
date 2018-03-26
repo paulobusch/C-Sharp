@@ -30,6 +30,7 @@
         {
             this.btn_clique = new System.Windows.Forms.Button();
             this.lbl_texto = new System.Windows.Forms.Label();
+            this.btn_exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_clique
@@ -50,11 +51,22 @@
             this.lbl_texto.TabIndex = 1;
             this.lbl_texto.Text = "Texto de exemplo";
             // 
+            // btn_exit
+            // 
+            this.btn_exit.Location = new System.Drawing.Point(12, 12);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(156, 34);
+            this.btn_exit.TabIndex = 2;
+            this.btn_exit.Text = "Fechar aplicação";
+            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(478, 294);
+            this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.lbl_texto);
             this.Controls.Add(this.btn_clique);
             this.Name = "Form1";
@@ -67,6 +79,7 @@
 
         private System.Windows.Forms.Button btn_clique;
         private System.Windows.Forms.Label lbl_texto;
+        private System.Windows.Forms.Button btn_exit;
     }
 }
 
