@@ -7,3 +7,12 @@ C:\Users\paulo\Desktop\Projetos\C#\OperadoresMatemáticos\OperadoresMatemáticos
 C:\Users\paulo\Desktop\Projetos\C#\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.csproj.CoreCompileInputs.cache
 C:\Users\paulo\Desktop\Projetos\C#\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.exe
 C:\Users\paulo\Desktop\Projetos\C#\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\bin\Debug\OperadoresMatemáticos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\bin\Debug\OperadoresMatemáticos.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\OperadoresMatemáticos\OperadoresMatemáticos\obj\Debug\OperadoresMatemáticos.pdb

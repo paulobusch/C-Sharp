@@ -32,8 +32,13 @@ namespace OperadoresMatemáticos
             float n2 = float.Parse(txt_parcela2.Text);
             float resultado;
 
-            //adição
+            //adição (+)
             resultado = n1 + n2;
+
+            //subtração (-)
+            resultado = n1 - n2;
+
+            lbl_resultado.Text = resultado.ToString();
         }
     }
 }
