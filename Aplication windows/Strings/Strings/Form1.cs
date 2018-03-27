@@ -19,9 +19,8 @@ namespace Strings
         private void btn_executar_Click(object sender, EventArgs e)
         {
             string nome = "Paulo Busch";
-            string sobrenome = "Ricardo ";
-            string nome_completo = nome.Insert(6,sobrenome);
-            lbl_texto.Text = nome_completo;
+            string final = nome.Replace('a','_');
+            lbl_texto.Text = final;
         }
     }
 }
