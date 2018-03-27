@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\bin\Debug\Classes.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\bin\Debug\Classes.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\obj\Debug\Classes.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\obj\Debug\Classes.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\obj\Debug\Classes.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\obj\Debug\Classes.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Classes\Classes\obj\Debug\Classes.pdb
