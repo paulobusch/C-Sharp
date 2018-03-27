@@ -24,11 +24,18 @@ namespace Ciclos_repeticao
                 lst_ciclos.Items.Add("Linha: " + i);
             }
             */
+            /*
             int vezes = 0;
             while (vezes<=100)
             {
                 lst_ciclos.Items.Add(vezes++);
             }
+            */
+            int v = 0;
+            do
+            {
+                lst_ciclos.Items.Add(v++);
+            } while (v<=100);
         }
     }
 }
