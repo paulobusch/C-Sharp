@@ -18,9 +18,9 @@ namespace Condições
                 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-            int valor = 2;
+            int valor = 3;
 
-            if (valor==2)
+            if (valor > 2)
             {
                 lbl_executar.Text = "OK";
             }
