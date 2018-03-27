@@ -28,20 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btn_executar = new System.Windows.Forms.Button();
+            this.lbl_texto = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // btn_executar
+            // 
+            this.btn_executar.Location = new System.Drawing.Point(430, 113);
+            this.btn_executar.Name = "btn_executar";
+            this.btn_executar.Size = new System.Drawing.Size(143, 38);
+            this.btn_executar.TabIndex = 0;
+            this.btn_executar.Text = "Executar";
+            this.btn_executar.UseVisualStyleBackColor = true;
+            // 
+            // lbl_texto
+            // 
+            this.lbl_texto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_texto.Location = new System.Drawing.Point(13, 13);
+            this.lbl_texto.Name = "lbl_texto";
+            this.lbl_texto.Size = new System.Drawing.Size(560, 87);
+            this.lbl_texto.TabIndex = 1;
+            this.lbl_texto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(522, 449);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(585, 163);
+            this.Controls.Add(this.lbl_texto);
+            this.Controls.Add(this.btn_executar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Strings";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_executar;
+        private System.Windows.Forms.Label lbl_texto;
     }
 }
 

@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\bin\Debug\Strings.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\bin\Debug\Strings.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\obj\Debug\Strings.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\obj\Debug\Strings.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\obj\Debug\Strings.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\obj\Debug\Strings.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Strings\Strings\obj\Debug\Strings.pdb
