@@ -15,5 +15,11 @@ namespace Strings
         {
             InitializeComponent();
         }
+
+        private void btn_executar_Click(object sender, EventArgs e)
+        {
+            string frase = "Este tipo de variável é alfanumérica";
+            lbl_texto.Text = frase + " (contém " + frase.Length + " letras).";
+        }
     }
 }
