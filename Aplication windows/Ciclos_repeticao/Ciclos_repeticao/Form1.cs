@@ -31,11 +31,22 @@ namespace Ciclos_repeticao
                 lst_ciclos.Items.Add(vezes++);
             }
             */
+            /*
             int v = 0;
             do
             {
                 lst_ciclos.Items.Add(v++);
             } while (v<=100);
+            */
+            string frase = "Ciclo";
+            lst_ciclos.Items.Add(frase.ToUpper());
+            //lst_ciclos.Items.Add(frase.Length);
+
+            foreach (char c in frase)
+            {
+                lst_ciclos.Items.Add(c);
+            }
+
         }
     }
 }
