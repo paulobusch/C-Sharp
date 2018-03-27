@@ -28,8 +28,14 @@ namespace Array
             valores[4] = 10;
             */
             int[] valores = new int[]{10,20,30,40,50,60};
+            /*
             foreach (int i in valores){
                 lst_array.Items.Add(i);
+            }
+            */
+            int tamanho = valores.Length;
+            for (int i = 0;i < tamanho;i++){
+                lst_array.Items.Add(valores[i]);
             }
         }
     }
