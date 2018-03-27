@@ -18,8 +18,9 @@ namespace Strings
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-            string frase = "    Este tipo de variável é alfanumérica    ";
-            lbl_texto.Text = frase.Trim();
+            string frase = "Este tipo de variável é alfanumérica    ";
+            int x = frase.IndexOf("tipo");
+            lbl_texto.Text = x.ToString();
         }
     }
 }
