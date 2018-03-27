@@ -18,9 +18,16 @@ namespace Ciclos_repeticao
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-            for (int i=0;i<100;i++)
+            /*
+            for (int i=0;i<=100;i+=5)
             {
                 lst_ciclos.Items.Add("Linha: " + i);
+            }
+            */
+            int vezes = 0;
+            while (vezes<=100)
+            {
+                lst_ciclos.Items.Add(vezes++);
             }
         }
     }
