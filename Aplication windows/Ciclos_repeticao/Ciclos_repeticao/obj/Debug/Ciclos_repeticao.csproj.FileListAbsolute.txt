@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\bin\Debug\Ciclos_repeticao.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\bin\Debug\Ciclos_repeticao.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\obj\Debug\Ciclos_repeticao.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\obj\Debug\Ciclos_repeticao.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\obj\Debug\Ciclos_repeticao.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\obj\Debug\Ciclos_repeticao.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\obj\Debug\Ciclos_repeticao.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\obj\Debug\Ciclos_repeticao.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Ciclos_repeticao\Ciclos_repeticao\obj\Debug\Ciclos_repeticao.pdb

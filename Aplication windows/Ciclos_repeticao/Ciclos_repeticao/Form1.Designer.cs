@@ -28,13 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn_executar = new System.Windows.Forms.Button();
+            this.lst_ciclos = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // btn_executar
+            // 
+            this.btn_executar.Location = new System.Drawing.Point(394, 385);
+            this.btn_executar.Name = "btn_executar";
+            this.btn_executar.Size = new System.Drawing.Size(121, 38);
+            this.btn_executar.TabIndex = 0;
+            this.btn_executar.Text = "Executar";
+            this.btn_executar.UseVisualStyleBackColor = true;
+            this.btn_executar.Click += new System.EventHandler(this.btn_executar_Click);
+            // 
+            // lst_ciclos
+            // 
+            this.lst_ciclos.FormattingEnabled = true;
+            this.lst_ciclos.ItemHeight = 20;
+            this.lst_ciclos.Location = new System.Drawing.Point(12, 12);
+            this.lst_ciclos.Name = "lst_ciclos";
+            this.lst_ciclos.Size = new System.Drawing.Size(352, 404);
+            this.lst_ciclos.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(527, 435);
+            this.Controls.Add(this.lst_ciclos);
+            this.Controls.Add(this.btn_executar);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Estruturas de repetição";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_executar;
+        private System.Windows.Forms.ListBox lst_ciclos;
     }
 }
 
