@@ -28,20 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btn_executar = new System.Windows.Forms.Button();
+            this.lst_array = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // btn_executar
+            // 
+            this.btn_executar.Location = new System.Drawing.Point(389, 463);
+            this.btn_executar.Name = "btn_executar";
+            this.btn_executar.Size = new System.Drawing.Size(130, 53);
+            this.btn_executar.TabIndex = 0;
+            this.btn_executar.Text = "Executar";
+            this.btn_executar.UseVisualStyleBackColor = true;
+            this.btn_executar.Click += new System.EventHandler(this.btn_executar_Click);
+            // 
+            // lst_array
+            // 
+            this.lst_array.FormattingEnabled = true;
+            this.lst_array.ItemHeight = 20;
+            this.lst_array.Location = new System.Drawing.Point(12, 12);
+            this.lst_array.Name = "lst_array";
+            this.lst_array.Size = new System.Drawing.Size(323, 504);
+            this.lst_array.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(564, 540);
+            this.Controls.Add(this.lst_array);
+            this.Controls.Add(this.btn_executar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Array";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_executar;
+        private System.Windows.Forms.ListBox lst_array;
     }
 }
 
