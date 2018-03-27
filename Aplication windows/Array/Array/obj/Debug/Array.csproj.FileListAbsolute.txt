@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\bin\Debug\Array.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\bin\Debug\Array.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\obj\Debug\Array.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\obj\Debug\Array.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\obj\Debug\Array.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\obj\Debug\Array.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\obj\Debug\Array.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Array\Array\obj\Debug\Array.pdb

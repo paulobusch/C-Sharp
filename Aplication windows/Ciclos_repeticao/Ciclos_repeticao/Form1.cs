@@ -38,7 +38,7 @@ namespace Ciclos_repeticao
                 lst_ciclos.Items.Add(v++);
             } while (v<=100);
             */
-            string frase = "Ciclo";
+            string frase = "Ciclo de repetição";
             lst_ciclos.Items.Add(frase.ToUpper());
             //lst_ciclos.Items.Add(frase.Length);
 
