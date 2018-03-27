@@ -18,9 +18,9 @@ namespace Strings
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-            string nome = "Paulo Busch";
-            string final = nome.Replace('a','_');
-            lbl_texto.Text = final;
+            string items = "joão,paulo,lucas,roberto,antônio";
+            string[] nomes = items.Split(',');
+            lbl_texto.Text = nomes[3];
         }
     }
 }
