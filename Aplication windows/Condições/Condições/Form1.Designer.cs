@@ -40,6 +40,7 @@
             this.btn_executar.TabIndex = 0;
             this.btn_executar.Text = "Executar";
             this.btn_executar.UseVisualStyleBackColor = true;
+            this.btn_executar.Click += new System.EventHandler(this.btn_executar_Click);
             // 
             // lbl_executar
             // 
@@ -49,7 +50,6 @@
             this.lbl_executar.Size = new System.Drawing.Size(82, 20);
             this.lbl_executar.TabIndex = 1;
             this.lbl_executar.Text = "Resultado";
-            this.lbl_executar.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
