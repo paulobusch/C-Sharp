@@ -20,6 +20,7 @@ namespace Strings
         {
             string frase = "Este tipo de variável é alfanumérica";
             lbl_texto.Text = frase + " (contém " + frase.Length + " letras).";
+            lbl_texto.Text += " \nMédodo ToUpper() [" + frase.ToUpper() + " ].";
         }
     }
 }
