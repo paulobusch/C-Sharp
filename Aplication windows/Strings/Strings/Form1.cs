@@ -18,9 +18,10 @@ namespace Strings
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-            string frase = "Este tipo de variável é alfanumérica    ";
-            int x = frase.IndexOf("tipo");
-            lbl_texto.Text = x.ToString();
+            string nome = "Paulo Busch";
+            string sobrenome = "Ricardo ";
+            string nome_completo = nome.Insert(6,sobrenome);
+            lbl_texto.Text = nome_completo;
         }
     }
 }
