@@ -30,6 +30,7 @@
         {
             this.btn_executar = new System.Windows.Forms.Button();
             this.lbl_executar = new System.Windows.Forms.Label();
+            this.txt_box = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_executar
@@ -44,18 +45,25 @@
             // 
             // lbl_executar
             // 
-            this.lbl_executar.AutoSize = true;
-            this.lbl_executar.Location = new System.Drawing.Point(13, 13);
+            this.lbl_executar.Location = new System.Drawing.Point(12, 58);
             this.lbl_executar.Name = "lbl_executar";
-            this.lbl_executar.Size = new System.Drawing.Size(82, 20);
+            this.lbl_executar.Size = new System.Drawing.Size(301, 31);
             this.lbl_executar.TabIndex = 1;
             this.lbl_executar.Text = "Resultado";
+            // 
+            // txt_box
+            // 
+            this.txt_box.Location = new System.Drawing.Point(16, 13);
+            this.txt_box.Name = "txt_box";
+            this.txt_box.Size = new System.Drawing.Size(100, 26);
+            this.txt_box.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(325, 183);
+            this.Controls.Add(this.txt_box);
             this.Controls.Add(this.lbl_executar);
             this.Controls.Add(this.btn_executar);
             this.Name = "Form1";
@@ -70,6 +78,7 @@
 
         private System.Windows.Forms.Button btn_executar;
         private System.Windows.Forms.Label lbl_executar;
+        private System.Windows.Forms.TextBox txt_box;
     }
 }
 
