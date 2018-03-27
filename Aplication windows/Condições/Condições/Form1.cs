@@ -37,6 +37,7 @@ namespace Condições
                 lbl_executar.Text = "Nenhuma das opções";
             }
             */
+            /*
             switch (valor)
             {
                 case 10:
@@ -58,6 +59,8 @@ namespace Condições
                     lbl_executar.Text = "Nenhum caso";
                     break;
             }
+            */
+            lbl_executar.Text = (valor == 10) ? "Sim" : "Não";
         }
     }
 }
