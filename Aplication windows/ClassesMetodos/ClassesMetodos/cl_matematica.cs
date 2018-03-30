@@ -6,20 +6,24 @@ using System.Text;
 namespace ClassesMetodos
 {
     class cl_matematica{
-        public int Adicao(int n1, int n2){
-            return n1 + n2;
-        }
-
-        public int Subtracao(int n1, int n2){
-            return n1 - n2;
-        }
-
-        public int Multiplicacao(int n1, int n2){
-            return n1 * n2;
-        }
-
-        public int Divisao(int n1, int n2){
-            return n1 / n2;
+        public int Operacoes(int n1, int n2, string operacao){
+            int resultado = -1;
+            switch (operacao)
+            {
+                case "adicao":
+                    resultado = n1 + n2;
+                    break;
+                case "subtracao":
+                    resultado = n1 - n2;
+                    break;
+                case "multiplicacao":
+                    resultado = n1 * n2;
+                    break;
+                case "divisao":
+                    resultado = n1 / n2;
+                    break;
+            }
+            return resultado;
         }
     }
 }
