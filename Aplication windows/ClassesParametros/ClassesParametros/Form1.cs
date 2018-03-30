@@ -18,7 +18,10 @@ namespace ClassesParametros
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-
+            teste objeto = new teste();
+            int v = 10;
+            objeto.Diminuir(ref v);
+            lbl_texto.Text = v.ToString();
         }
     }
 }
