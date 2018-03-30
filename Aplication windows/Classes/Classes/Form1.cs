@@ -18,19 +18,12 @@ namespace Classes
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-            string nome = "sdfsdf";
-
             pessoa p1 = new pessoa();
             p1.nome = "Paulo";
-            p1.idade = 18;
-            p1.corCabelo = "Loiro";
-
+            p1.Falar();
             pessoa p2 = new pessoa();
             p2.nome = "Carlos";
-            p2.idade = 42;
-            p2.corCabelo = "Preto";
-
-            lbl_texto.Text = p1.nome;
+            p2.Falar();
         }
     }
 }

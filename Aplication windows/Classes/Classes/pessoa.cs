@@ -11,7 +11,7 @@ namespace Classes
         public int idade;
         public string corCabelo;
         public void Falar(){
-            System.Windows.Forms.MessageBox.Show("Olá!");
+            System.Windows.Forms.MessageBox.Show("Olá, meu nome é " + nome);
         }
     }
 }
