@@ -19,9 +19,8 @@ namespace Classes
         private void btn_executar_Click(object sender, EventArgs e)
         {
             pessoa p1 = new pessoa();
-            p1.nome = "Paulo";
-            p1.idade = 18;
-            p1.Apresentar_se();
+            p1.Falar();
+            p1.Correr();
         }
     }
 }

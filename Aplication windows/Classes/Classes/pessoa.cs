@@ -7,14 +7,15 @@ namespace Classes
 {
     class pessoa
     {
-        public string nome;
-        public int idade;
-        public string corCabelo;
         public void Falar(){
-            System.Windows.Forms.MessageBox.Show("Olá, meu nome é " + nome);
+            System.Windows.Forms.MessageBox.Show("Falar.");
         }
-        public void Apresentar_se(){
-            System.Windows.Forms.MessageBox.Show("O meu nome é " + nome + " e tenho " + idade + " anos.");
+        public void Correr(){
+            System.Windows.Forms.MessageBox.Show("Correr.");
+            Saltar();
+        }
+        private void Saltar(){
+            System.Windows.Forms.MessageBox.Show("Saltar.");
         }
     }
 }
