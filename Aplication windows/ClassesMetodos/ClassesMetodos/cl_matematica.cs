@@ -6,30 +6,36 @@ using System.Text;
 namespace ClassesMetodos
 {
     class cl_matematica{
-        public int Operacoes(int n1, int n2, string operacao){
-            int resultado = -1;
-            if(operacao == "adição"){
-                resultado = n1 + n2;
+        int v1, v2;
+        public int Operacoes(int v1, int v2, string operacao) {
+            this.v1 = v1;
+            this.v2 = v2;
+            int r = 0;
+            if (operacao == "adição") {
+                r = Adicao();
+            } else if (operacao == "subtração") {
+                r = Subtracao();
+            } else if (operacao == "multiplicação") {
+                r = Multiplicacao();
+            } else if(operacao == "divisão"){
+                r = Divisao();
             }
-            else{
-                if (operacao == "subtração"){
-                    resultado = n1 - n2;
-                }
-                else{
-                    if (operacao == "multiplicação"){
-                        resultado = n1 * n2;
-                    }
-                    else{
-                        if (operacao == "divisão"){
-                            resultado = n1 / n2;
-                        }
-                        else{
-                            resultado = -1000;
-                        }
-                    }
-                }
-            }
-            return resultado;
+            return r;
+        }
+        private int Adicao(){
+            return v1 + v2;
+        }
+
+        private int Subtracao(){
+            return v1 - v2;
+        }
+
+        private int Multiplicacao(){
+            return v1 * v2;
+        }
+
+        private int Divisao(){
+            return v1 / v2;
         }
     }
 }
