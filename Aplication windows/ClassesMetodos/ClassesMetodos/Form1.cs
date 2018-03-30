@@ -19,7 +19,11 @@ namespace ClassesMetodos
         private void btn_executar_Click(object sender, EventArgs e)
         {
             cl_matematica calculadora = new cl_matematica();
-            lbl_texto.Text = calculadora.Divisao(50,15).ToString();
+            int v1 = 15, v2 = 5;
+            lbl_texto.Text = "Soma de " + v1 + " e " + v2 + " é " + calculadora.Adicao(v1,v2).ToString() + "\n";
+            lbl_texto.Text += "Subtração de " + v1 + " e " + v2 + " é " + calculadora.Subtracao(v1,v2).ToString() + "\n";
+            lbl_texto.Text += "Multiplicação de " + v1 + " e " + v2 + " é " + calculadora.Multiplicacao(v1,v2).ToString() + "\n";
+            lbl_texto.Text += "Divisão de " + v1 + " e " + v2 + " é " + calculadora.Divisao(v1,v2).ToString() + "\n";
         }
     }
 }
