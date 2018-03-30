@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\bin\Debug\ClassesParametros.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\bin\Debug\ClassesParametros.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\obj\Debug\ClassesParametros.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\obj\Debug\ClassesParametros.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\obj\Debug\ClassesParametros.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\obj\Debug\ClassesParametros.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\obj\Debug\ClassesParametros.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\obj\Debug\ClassesParametros.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesParametros\ClassesParametros\obj\Debug\ClassesParametros.pdb
