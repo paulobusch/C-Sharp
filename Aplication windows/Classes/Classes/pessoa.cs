@@ -10,5 +10,8 @@ namespace Classes
         public string nome;
         public int idade;
         public string corCabelo;
+        public void Falar(){
+            System.Windows.Forms.MessageBox.Show("Olá!");
+        }
     }
 }
