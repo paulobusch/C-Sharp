@@ -6,12 +6,12 @@ using System.Text;
 namespace ClassesMetodos
 {
     class cl_matematica{
-        public int n1;
-        public int n2;
+        public int Adicao(int n1, int n2){
+            return n1 + n2;
+        }
 
-        public int Adicao(){
-            int resultado = n1 + n2;
-            return resultado;
+        public int Subtracao(int n1, int n2){
+            return n1 - n2;
         }
     }
 }
