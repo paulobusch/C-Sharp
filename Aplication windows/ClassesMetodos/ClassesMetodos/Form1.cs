@@ -19,7 +19,9 @@ namespace ClassesMetodos
         private void btn_executar_Click(object sender, EventArgs e)
         {
             cl_matematica calculadora = new cl_matematica();
-            calculadora.adicao();
+            calculadora.n1 = 10;
+            calculadora.n2 = 20;
+            lbl_texto.Text = calculadora.Adicao().ToString();
         }
     }
 }
