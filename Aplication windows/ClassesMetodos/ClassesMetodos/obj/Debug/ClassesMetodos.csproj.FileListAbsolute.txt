@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\bin\Debug\ClassesMetodos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\bin\Debug\ClassesMetodos.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\obj\Debug\ClassesMetodos.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\obj\Debug\ClassesMetodos.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\obj\Debug\ClassesMetodos.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\obj\Debug\ClassesMetodos.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\obj\Debug\ClassesMetodos.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\obj\Debug\ClassesMetodos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClassesMetodos\ClassesMetodos\obj\Debug\ClassesMetodos.pdb
