@@ -20,10 +20,8 @@ namespace Classes
         {
             pessoa p1 = new pessoa();
             p1.nome = "Paulo";
-            p1.Falar();
-            pessoa p2 = new pessoa();
-            p2.nome = "Carlos";
-            p2.Falar();
+            p1.idade = 18;
+            p1.Apresentar_se();
         }
     }
 }

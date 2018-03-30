@@ -13,5 +13,8 @@ namespace Classes
         public void Falar(){
             System.Windows.Forms.MessageBox.Show("Olá, meu nome é " + nome);
         }
+        public void Apresentar_se(){
+            System.Windows.Forms.MessageBox.Show("O meu nome é " + nome + " e tenho " + idade + " anos.");
+        }
     }
 }
