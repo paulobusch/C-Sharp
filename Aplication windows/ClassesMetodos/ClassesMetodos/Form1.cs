@@ -19,7 +19,7 @@ namespace ClassesMetodos
         private void btn_executar_Click(object sender, EventArgs e)
         {
             cl_matematica calculadora = new cl_matematica();
-            lbl_texto.Text = calculadora.Subtracao(50,15).ToString();
+            lbl_texto.Text = calculadora.Multiplicacao(50,15).ToString();
         }
     }
 }
