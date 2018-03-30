@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\bin\Debug\CamposPropriedades.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\bin\Debug\CamposPropriedades.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\obj\Debug\CamposPropriedades.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\obj\Debug\CamposPropriedades.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\obj\Debug\CamposPropriedades.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\obj\Debug\CamposPropriedades.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\obj\Debug\CamposPropriedades.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\obj\Debug\CamposPropriedades.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CamposPropriedades\CamposPropriedades\obj\Debug\CamposPropriedades.pdb

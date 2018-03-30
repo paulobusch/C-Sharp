@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ClassesParametros
+namespace CamposPropriedades
 {
     public partial class Form1 : Form
     {
@@ -16,12 +16,11 @@ namespace ClassesParametros
             InitializeComponent();
         }
 
-        private void btn_executar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            teste objeto = new teste();
-            int v = 10;
-            v = objeto.Acrescentar();
-            lbl_texto.Text = v.ToString();
+            teste v = new teste();
+            v.nome = "Paulo Ricardo Busch";
+            v.Apresentar();
         }
     }
 }

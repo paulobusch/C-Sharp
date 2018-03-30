@@ -7,8 +7,9 @@ namespace ClassesParametros
 {
     class teste
     {
-        public void Acrescentar(ref int valor){
-            valor += 5;
+        public int Acrescentar(int valor = 20, int x){
+            valor += x;
+            return valor;
         }
 
         public void Diminuir(ref int valor){
