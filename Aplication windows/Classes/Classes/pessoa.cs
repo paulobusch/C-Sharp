@@ -7,15 +7,15 @@ namespace Classes
 {
     class pessoa
     {
-        public void Falar(){
-            System.Windows.Forms.MessageBox.Show("Falar.");
+        public string nome;
+        public string apelido;
+
+        public void IdentificarSe(){
+            System.Windows.Forms.MessageBox.Show(ConstruirNome());
         }
-        public void Correr(){
-            System.Windows.Forms.MessageBox.Show("Correr.");
-            Saltar();
-        }
-        private void Saltar(){
-            System.Windows.Forms.MessageBox.Show("Saltar.");
+        private string ConstruirNome(){
+            string NomeCompleto = nome + " " + apelido;
+            return NomeCompleto;
         }
     }
 }
