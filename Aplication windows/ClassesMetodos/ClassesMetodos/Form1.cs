@@ -20,7 +20,7 @@ namespace ClassesMetodos
         {
             cl_matematica calculadora = new cl_matematica();
             int v1 = 15, v2 = 3;
-            lbl_texto.Text = "Soma: " + calculadora.Operacoes(v1,v2,"adicao").ToString();
+            lbl_texto.Text = "Soma: " + calculadora.Operacoes(v1,v2,"adição").ToString();
         }
     }
 }

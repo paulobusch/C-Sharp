@@ -8,20 +8,26 @@ namespace ClassesMetodos
     class cl_matematica{
         public int Operacoes(int n1, int n2, string operacao){
             int resultado = -1;
-            switch (operacao)
-            {
-                case "adicao":
-                    resultado = n1 + n2;
-                    break;
-                case "subtracao":
+            if(operacao == "adição"){
+                resultado = n1 + n2;
+            }
+            else{
+                if (operacao == "subtração"){
                     resultado = n1 - n2;
-                    break;
-                case "multiplicacao":
-                    resultado = n1 * n2;
-                    break;
-                case "divisao":
-                    resultado = n1 / n2;
-                    break;
+                }
+                else{
+                    if (operacao == "multiplicação"){
+                        resultado = n1 * n2;
+                    }
+                    else{
+                        if (operacao == "divisão"){
+                            resultado = n1 / n2;
+                        }
+                        else{
+                            resultado = -1000;
+                        }
+                    }
+                }
             }
             return resultado;
         }
