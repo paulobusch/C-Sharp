@@ -8,5 +8,7 @@ namespace ClasseParcial
     partial class teste
     {
         //propriedades da classe
+        public string nome { get; set; }
+        public string sobrenome { get; set; }
     }
 }
