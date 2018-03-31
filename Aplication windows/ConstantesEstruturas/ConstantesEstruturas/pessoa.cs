@@ -5,8 +5,9 @@ using System.Text;
 
 namespace ConstantesEstruturas
 {
-    public static class estatica
+    class pessoa
     {
-        public const string Nome = "Xavier";
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
     }
 }

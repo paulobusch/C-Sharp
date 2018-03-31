@@ -11,8 +11,6 @@ namespace ConstantesEstruturas
 {
     public partial class Form1 : Form
     {
-        const string Nome = "João";
-
         public Form1()
         {            
             InitializeComponent();
@@ -20,7 +18,14 @@ namespace ConstantesEstruturas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Constante: " + Nome);
+            normal objeto1 = new normal();
+            Console.WriteLine("Nome: " + objeto1.Nome);
+            Console.WriteLine("Nome: " + estatica.Nome);
+
+            pessoa p1 = new pessoa();
+            p1.Nome = "Paulo Ricardo";
+            p1.Nome = "Busch";
+
         }
     }
 }
