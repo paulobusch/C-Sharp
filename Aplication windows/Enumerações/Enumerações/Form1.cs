@@ -11,10 +11,12 @@ namespace Enumerações
 {
     public partial class Form1 : Form
     {
-        teste objeto = new teste();
+        teste jogador;
+
         public Form1()
         {
             InitializeComponent();
+            jogador = new teste();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -24,22 +26,22 @@ namespace Enumerações
 
         private void btn_cima_Click(object sender, EventArgs e)
         {
-            objeto.Mover(teste.Movimento.cima);
+            jogador.Mover(teste.Movimento.cima);
         }
 
         private void btn_baixo_Click(object sender, EventArgs e)
         {
-            objeto.Mover(teste.Movimento.baixo);
+            jogador.Mover(teste.Movimento.baixo);
         }
 
         private void btn_esquerda_Click(object sender, EventArgs e)
         {
-            objeto.Mover(teste.Movimento.esquerda);
+            jogador.Mover(teste.Movimento.esquerda);
         }
 
         private void btn_direita_Click(object sender, EventArgs e)
         {
-            objeto.Mover(teste.Movimento.direita);
+            jogador.Mover(teste.Movimento.direita);
         }
     }
 }
