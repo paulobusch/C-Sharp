@@ -10,19 +10,10 @@ namespace CamposPropriedades
         string _nome;
         int _idade;
         //definição de propriedade
-        public string Nome
-        {
-            set{
-                _nome = value;
-            }
-            get
-            {
-                return _nome;
-            }
-        }
+        public string Nome { get; set; }
         public void Apresentar()
         {
-            System.Windows.Forms.MessageBox.Show(_nome);
+            System.Windows.Forms.MessageBox.Show(Nome);
         }
     }
 }
