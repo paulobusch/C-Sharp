@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\bin\Debug\Enumerações.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\bin\Debug\Enumerações.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\obj\Debug\Enumerações.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\obj\Debug\Enumerações.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\obj\Debug\Enumerações.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\obj\Debug\Enumerações.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\obj\Debug\Enumerações.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\obj\Debug\Enumerações.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Enumerações\Enumerações\obj\Debug\Enumerações.pdb
