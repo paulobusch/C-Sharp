@@ -11,5 +11,10 @@ namespace Herança
         {
 
         }
+
+        public override void Acelerar()// override - função reescrita de classe pai
+        {
+            Console.WriteLine("A bicicleta Acelerou...");
+        }
     }
 }
