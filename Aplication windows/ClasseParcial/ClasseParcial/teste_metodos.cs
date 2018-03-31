@@ -5,7 +5,11 @@ using System.Text;
 
 namespace ClasseParcial
 {
-    class teste_metodos
+    partial class teste
     {
+        public void ApresentarNome()
+        {
+            Console.WriteLine(nome + " " + sobrenome);
+        }
     }
 }
