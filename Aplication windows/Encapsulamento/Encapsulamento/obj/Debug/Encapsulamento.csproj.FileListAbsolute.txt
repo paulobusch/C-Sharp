@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\bin\Debug\Encapsulamento.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\bin\Debug\Encapsulamento.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\obj\Debug\Encapsulamento.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\obj\Debug\Encapsulamento.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\obj\Debug\Encapsulamento.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\obj\Debug\Encapsulamento.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\obj\Debug\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\obj\Debug\Encapsulamento.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Encapsulamento\Encapsulamento\obj\Debug\Encapsulamento.pdb
