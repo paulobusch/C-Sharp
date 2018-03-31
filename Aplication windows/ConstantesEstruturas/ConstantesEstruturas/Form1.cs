@@ -31,9 +31,7 @@ namespace ConstantesEstruturas
             p1.Nome = "Paulo Ricardo";
             p1.Nome = "Busch";
 
-            estrutura_pessoa p2 = new estrutura_pessoa();
-            p2.nome = "Paulo Ricardo";
-            p2.sobrenome = "Busch";
+            estrutura_pessoa p2 = new estrutura_pessoa() { nome = "Paulo Ricardo", sobrenome = "Busch"};
             Console.WriteLine(p2.nome + " " + p2.sobrenome);
         }
     }
