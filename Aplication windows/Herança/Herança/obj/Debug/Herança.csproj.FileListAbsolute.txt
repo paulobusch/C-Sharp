@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\bin\Debug\Herança.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\bin\Debug\Herança.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\obj\Debug\Herança.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\obj\Debug\Herança.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\obj\Debug\Herança.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\obj\Debug\Herança.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\obj\Debug\Herança.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\obj\Debug\Herança.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Herança\Herança\obj\Debug\Herança.pdb
