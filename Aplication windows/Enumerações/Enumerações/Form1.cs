@@ -11,6 +11,7 @@ namespace Enumerações
 {
     public partial class Form1 : Form
     {
+        teste objeto = new teste();
         public Form1()
         {
             InitializeComponent();
@@ -18,9 +19,27 @@ namespace Enumerações
 
         private void button1_Click(object sender, EventArgs e)
         {
-            teste objeto = new teste();
-            objeto.ApresentarDia(teste.DiasDaSemana.domingo);
+
+        }
+
+        private void btn_cima_Click(object sender, EventArgs e)
+        {
+            objeto.Mover(teste.Movimento.cima);
+        }
+
+        private void btn_baixo_Click(object sender, EventArgs e)
+        {
             objeto.Mover(teste.Movimento.baixo);
+        }
+
+        private void btn_esquerda_Click(object sender, EventArgs e)
+        {
+            objeto.Mover(teste.Movimento.esquerda);
+        }
+
+        private void btn_direita_Click(object sender, EventArgs e)
+        {
+            objeto.Mover(teste.Movimento.direita);
         }
     }
 }
