@@ -18,7 +18,9 @@ namespace Enumerações
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("teste");
+            teste objeto = new teste();
+            objeto.ApresentarDia(teste.DiasDaSemana.domingo);
+            objeto.Mover(teste.Movimento.baixo);
         }
     }
 }
