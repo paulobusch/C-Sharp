@@ -19,7 +19,7 @@ namespace CamposPropriedades
         private void button1_Click(object sender, EventArgs e)
         {
             teste v = new teste();
-            v.nome = "Paulo Ricardo Busch";
+            v.Nome = textBox1.Text ;
             v.Apresentar();
         }
     }
