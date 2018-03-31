@@ -11,6 +11,11 @@ namespace ConstantesEstruturas
 {
     public partial class Form1 : Form
     {
+        struct estrutura_pessoa
+        {
+            public string nome;
+            public string sobrenome;
+        }
         public Form1()
         {            
             InitializeComponent();
@@ -26,6 +31,10 @@ namespace ConstantesEstruturas
             p1.Nome = "Paulo Ricardo";
             p1.Nome = "Busch";
 
+            estrutura_pessoa p2 = new estrutura_pessoa();
+            p2.nome = "Paulo Ricardo";
+            p2.sobrenome = "Busch";
+            Console.WriteLine(p2.nome + " " + p2.sobrenome);
         }
     }
 }
