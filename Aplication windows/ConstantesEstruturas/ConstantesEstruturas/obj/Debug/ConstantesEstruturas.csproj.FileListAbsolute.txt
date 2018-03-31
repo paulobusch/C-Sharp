@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\bin\Debug\ConstantesEstruturas.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\bin\Debug\ConstantesEstruturas.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\obj\Debug\ConstantesEstruturas.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\obj\Debug\ConstantesEstruturas.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\obj\Debug\ConstantesEstruturas.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\obj\Debug\ConstantesEstruturas.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\obj\Debug\ConstantesEstruturas.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\obj\Debug\ConstantesEstruturas.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConstantesEstruturas\ConstantesEstruturas\obj\Debug\ConstantesEstruturas.csprojResolveAssemblyReference.cache
