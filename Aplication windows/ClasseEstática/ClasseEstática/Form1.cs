@@ -18,7 +18,9 @@ namespace ClasseEstática
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-
+            normal objeto1 = new normal();
+            objeto1.Nome = "Ribeiro";
+            objeto1.ApresentarNome();
         }
     }
 }

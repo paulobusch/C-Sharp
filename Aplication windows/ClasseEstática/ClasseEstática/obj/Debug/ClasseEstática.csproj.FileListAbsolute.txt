@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\bin\Debug\ClasseEstática.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\bin\Debug\ClasseEstática.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\obj\Debug\ClasseEstática.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\obj\Debug\ClasseEstática.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\obj\Debug\ClasseEstática.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\obj\Debug\ClasseEstática.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\obj\Debug\ClasseEstática.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\obj\Debug\ClasseEstática.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ClasseEstática\ClasseEstática\obj\Debug\ClasseEstática.pdb
