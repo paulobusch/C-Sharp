@@ -37,6 +37,8 @@ namespace Menus
         private void mn_cmb_SelectedIndexChanged(object sender, EventArgs e)
         {
             lbl_resultado.Text = mn_cmb.Text;
+            if (mn_cmb.Text == "Valor 1")
+                MessageBox.Show("Valor 1 selecionado");
         }
 
         private void Form1_Load(object sender, EventArgs e)
