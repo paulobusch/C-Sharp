@@ -18,8 +18,12 @@ namespace DataHora
 
         private void btn_resultado_Click(object sender, EventArgs e)
         {
-            DateTime data = new DateTime(2000,02,01);
-            lbl_resultado.Text = data.DayOfYear.ToString();
+            int dia = int.Parse(txt_dia.Text);
+            int mes = int.Parse(txt_mes.Text);
+            int ano = int.Parse(txt_ano.Text);
+
+            DateTime data = new DateTime(ano,mes,dia);
+            lbl_resultado.Text = "Dia da semana" + data.DayOfWeek;
         }
     }
 }
