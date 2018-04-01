@@ -18,7 +18,8 @@ namespace DataHora
 
         private void btn_resultado_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            DateTime data = new DateTime(2000,02,01);
+            lbl_resultado.Text = data.DayOfYear.ToString();
         }
     }
 }
