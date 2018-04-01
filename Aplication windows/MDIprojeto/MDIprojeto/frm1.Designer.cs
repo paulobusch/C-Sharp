@@ -36,6 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(499, 390);
             this.Name = "frm1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "frm1";
             this.ResumeLayout(false);
 

@@ -16,10 +16,10 @@ namespace MDIprojeto
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmMain_Load(object sender, EventArgs e)
         {
-            frm1 f = new frm1();
-            
+            frm1 f = new frm1(this);//passa o formulário pai
+            f.Show();//para MDI é permitido somente Show();
         }
     }
 }

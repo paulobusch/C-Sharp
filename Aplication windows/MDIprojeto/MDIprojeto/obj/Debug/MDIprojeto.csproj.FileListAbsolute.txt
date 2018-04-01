@@ -1,0 +1,10 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\bin\Debug\MDIprojeto.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\bin\Debug\MDIprojeto.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.frmMain.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.frm1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\MDIprojeto\MDIprojeto\obj\Debug\MDIprojeto.pdb
