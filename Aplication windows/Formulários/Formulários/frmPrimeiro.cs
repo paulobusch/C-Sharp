@@ -26,5 +26,16 @@ namespace Formulários
             frmUm formulario = new frmUm();
             formulario.ShowDialog();//ShowDialog() - Prioriza janeja
         }
+
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+            frmDois formulario = new frmDois();
+            formulario.ShowDialog();
+        }
+
+        private void btn_fechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();//fecha tudo
+        }
     }
 }

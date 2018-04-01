@@ -30,11 +30,12 @@
         {
             this.btn_1 = new System.Windows.Forms.Button();
             this.btn_2 = new System.Windows.Forms.Button();
+            this.btn_fechar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_1
             // 
-            this.btn_1.Location = new System.Drawing.Point(258, 29);
+            this.btn_1.Location = new System.Drawing.Point(147, 46);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(113, 52);
             this.btn_1.TabIndex = 0;
@@ -44,12 +45,23 @@
             // 
             // btn_2
             // 
-            this.btn_2.Location = new System.Drawing.Point(258, 100);
+            this.btn_2.Location = new System.Drawing.Point(147, 117);
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(113, 52);
             this.btn_2.TabIndex = 1;
             this.btn_2.Text = "Botão 2";
             this.btn_2.UseVisualStyleBackColor = true;
+            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
+            // 
+            // btn_fechar
+            // 
+            this.btn_fechar.Location = new System.Drawing.Point(268, 237);
+            this.btn_fechar.Name = "btn_fechar";
+            this.btn_fechar.Size = new System.Drawing.Size(113, 52);
+            this.btn_fechar.TabIndex = 2;
+            this.btn_fechar.Text = ",";
+            this.btn_fechar.UseVisualStyleBackColor = true;
+            this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
             // Form1
             // 
@@ -57,6 +69,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(393, 301);
+            this.Controls.Add(this.btn_fechar);
             this.Controls.Add(this.btn_2);
             this.Controls.Add(this.btn_1);
             this.MaximizeBox = false;
@@ -72,6 +85,7 @@
 
         private System.Windows.Forms.Button btn_1;
         private System.Windows.Forms.Button btn_2;
+        private System.Windows.Forms.Button btn_fechar;
     }
 }
 
