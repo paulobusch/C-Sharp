@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\bin\Debug\Eventos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\bin\Debug\Eventos.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\obj\Debug\Eventos.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\obj\Debug\Eventos.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\obj\Debug\Eventos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Eventos\Eventos\obj\Debug\Eventos.pdb
