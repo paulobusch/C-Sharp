@@ -15,5 +15,21 @@ namespace Menus
         {
             InitializeComponent();
         }
+
+        private void mn_exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //mn_open.Enabled = false;//-desabilita opção de menu
+
+        }
+
+        private void mn_open_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("OPEN!");
+        }
     }
 }
