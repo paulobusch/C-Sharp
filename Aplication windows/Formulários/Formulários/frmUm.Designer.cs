@@ -39,6 +39,7 @@
             this.btn_fechar.TabIndex = 2;
             this.btn_fechar.Text = "Fechar";
             this.btn_fechar.UseVisualStyleBackColor = true;
+            this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
             // frmUm
             // 
