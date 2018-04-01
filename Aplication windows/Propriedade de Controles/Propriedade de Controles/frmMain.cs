@@ -30,14 +30,12 @@ namespace Propriedade_de_Controles
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
-            {
-                label1.Text = "Marcado";
-            }
-            else
-            {
-                label1.Text = "Não marcado";
-            }
+            
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            label1.Visible = checkBox1.Checked;
         }
     }
 }
