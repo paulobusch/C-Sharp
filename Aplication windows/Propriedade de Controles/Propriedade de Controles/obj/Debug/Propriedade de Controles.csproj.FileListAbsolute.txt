@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\bin\Debug\Propriedade de Controles.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\bin\Debug\Propriedade de Controles.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\obj\Debug\Propriedade de Controles.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\obj\Debug\Propriedade_de_Controles.frmMain.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\obj\Debug\Propriedade_de_Controles.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\obj\Debug\Propriedade de Controles.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\obj\Debug\Propriedade de Controles.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\obj\Debug\Propriedade de Controles.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Propriedade de Controles\Propriedade de Controles\obj\Debug\Propriedade de Controles.pdb
