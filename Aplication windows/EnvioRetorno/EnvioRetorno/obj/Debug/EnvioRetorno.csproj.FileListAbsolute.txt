@@ -1,0 +1,10 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\bin\Debug\EnvioRetorno.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\bin\Debug\EnvioRetorno.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.frm1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.frm2.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\EnvioRetorno\EnvioRetorno\obj\Debug\EnvioRetorno.pdb

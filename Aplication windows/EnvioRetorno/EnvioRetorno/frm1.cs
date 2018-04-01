@@ -11,6 +11,8 @@ namespace EnvioRetorno
 {
     public partial class frm1 : Form
     {
+        string nome = null;
+
         public frm1()
         {
             InitializeComponent();
@@ -18,8 +20,13 @@ namespace EnvioRetorno
 
         private void btn_avancar_Click(object sender, EventArgs e)
         {
-            frm2 formulario = new frm2();
+            //define nome
+            if (lbl_texto.Text != "")
+                nome = lbl_texto.Text;
+            frm2 formulario = new frm2(nome);
             formulario.ShowDialog();
+            if (formulario.nome != null)
+                lbl_texto.Text = formulario.nome;
         }
     }
 }

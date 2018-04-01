@@ -13,15 +13,19 @@ namespace EnvioRetorno
     {
         public string nome { get; set; }
 
-        public frm2()
+        public frm2(string nome)
         {
             InitializeComponent();
+            txt_nome.Text = nome;
         }
 
         private void btn_ok_Click(object sender, EventArgs e)
         {
             //definir o valor a retornar
-            nome = txt_nome.Text;
+            if (txt_nome.Text == "")
+                nome = null;
+            else
+                nome = txt_nome.Text;
             this.Close();
         }
 
