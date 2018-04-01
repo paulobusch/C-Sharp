@@ -41,6 +41,7 @@
             this.btn_ok.TabIndex = 1;
             this.btn_ok.Text = "OK";
             this.btn_ok.UseVisualStyleBackColor = true;
+            this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
             // 
             // btn_cancelar
             // 
@@ -50,6 +51,7 @@
             this.btn_cancelar.TabIndex = 2;
             this.btn_cancelar.Text = "Cancelar";
             this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
             // txt_nome
             // 
