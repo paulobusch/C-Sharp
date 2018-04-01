@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\bin\Debug\Formulários.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\bin\Debug\Formulários.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.frmUm.resources
