@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\bin\Debug\DataHora.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\bin\Debug\DataHora.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\obj\Debug\DataHora.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\obj\Debug\DataHora.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\obj\Debug\DataHora.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\obj\Debug\DataHora.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\obj\Debug\DataHora.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\obj\Debug\DataHora.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\DataHora\DataHora\obj\Debug\DataHora.pdb
