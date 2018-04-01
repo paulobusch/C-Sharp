@@ -23,7 +23,7 @@ namespace Formulários
 
         private void btn_1_Click(object sender, EventArgs e)
         {
-            frmUm formulario = new frmUm();
+            frmUm formulario = new frmUm(txt_nome.Text);
             formulario.ShowDialog();//ShowDialog() - Prioriza janeja
         }
 

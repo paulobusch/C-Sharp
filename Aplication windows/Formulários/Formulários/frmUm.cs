@@ -11,9 +11,10 @@ namespace Formulários
 {
     public partial class frmUm : Form
     {
-        public frmUm()
+        public frmUm(string texto)
         {
             InitializeComponent();
+            lbl_resultado_final.Text = texto;
         }
 
         private void btn_fechar_Click(object sender, EventArgs e)

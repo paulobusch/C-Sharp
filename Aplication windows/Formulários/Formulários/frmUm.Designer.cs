@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btn_fechar = new System.Windows.Forms.Button();
+            this.lbl_resultado_final = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_fechar
@@ -41,20 +42,32 @@
             this.btn_fechar.UseVisualStyleBackColor = true;
             this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
+            // lbl_resultado_final
+            // 
+            this.lbl_resultado_final.AutoSize = true;
+            this.lbl_resultado_final.Location = new System.Drawing.Point(13, 13);
+            this.lbl_resultado_final.Name = "lbl_resultado_final";
+            this.lbl_resultado_final.Size = new System.Drawing.Size(51, 20);
+            this.lbl_resultado_final.TabIndex = 3;
+            this.lbl_resultado_final.Text = "label1";
+            // 
             // frmUm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(495, 398);
+            this.Controls.Add(this.lbl_resultado_final);
             this.Controls.Add(this.btn_fechar);
             this.Name = "frmUm";
             this.Text = "frmUm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btn_fechar;
+        private System.Windows.Forms.Label lbl_resultado_final;
     }
 }
