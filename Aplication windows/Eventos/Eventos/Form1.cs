@@ -15,5 +15,35 @@ namespace Eventos
         {
             InitializeComponent();
         }
+
+        private void lbl_a_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void lbl_a_MouseEnter(object sender, EventArgs e)
+        {
+            lbl_a.BackColor = Color.Yellow;
+        }
+
+        private void lbl_a_MouseLeave(object sender, EventArgs e)
+        {
+            lbl_a.BackColor = Color.Transparent;
+        }
+
+        private void lbl_a_MouseDown(object sender, MouseEventArgs e)
+        {
+            lbl_a.BackColor = Color.Red;
+        }
+
+        private void lbl_a_MouseUp(object sender, MouseEventArgs e)
+        {
+            lbl_a.BackColor = Color.Yellow;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            lbl_a.Text = textBox1.Text;
+        }
     }
 }
