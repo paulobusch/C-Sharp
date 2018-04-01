@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cl_geral.cs" />
     <Compile Include="frmDois.cs">
       <SubType>Form</SubType>
     </Compile>

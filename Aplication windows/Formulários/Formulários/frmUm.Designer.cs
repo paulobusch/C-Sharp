@@ -30,6 +30,8 @@
         {
             this.btn_fechar = new System.Windows.Forms.Button();
             this.lbl_resultado_final = new System.Windows.Forms.Label();
+            this.lbl_recebe = new System.Windows.Forms.Label();
+            this.btn_tranf = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_fechar
@@ -51,11 +53,32 @@
             this.lbl_resultado_final.TabIndex = 3;
             this.lbl_resultado_final.Text = "label1";
             // 
+            // lbl_recebe
+            // 
+            this.lbl_recebe.AutoSize = true;
+            this.lbl_recebe.Location = new System.Drawing.Point(13, 91);
+            this.lbl_recebe.Name = "lbl_recebe";
+            this.lbl_recebe.Size = new System.Drawing.Size(51, 20);
+            this.lbl_recebe.TabIndex = 4;
+            this.lbl_recebe.Text = "label1";
+            // 
+            // btn_tranf
+            // 
+            this.btn_tranf.Location = new System.Drawing.Point(187, 193);
+            this.btn_tranf.Name = "btn_tranf";
+            this.btn_tranf.Size = new System.Drawing.Size(113, 52);
+            this.btn_tranf.TabIndex = 5;
+            this.btn_tranf.Text = "Transferir";
+            this.btn_tranf.UseVisualStyleBackColor = true;
+            this.btn_tranf.Click += new System.EventHandler(this.btn_tranf_Click);
+            // 
             // frmUm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(495, 398);
+            this.Controls.Add(this.btn_tranf);
+            this.Controls.Add(this.lbl_recebe);
             this.Controls.Add(this.lbl_resultado_final);
             this.Controls.Add(this.btn_fechar);
             this.Name = "frmUm";
@@ -69,5 +92,7 @@
 
         private System.Windows.Forms.Button btn_fechar;
         private System.Windows.Forms.Label lbl_resultado_final;
+        private System.Windows.Forms.Label lbl_recebe;
+        private System.Windows.Forms.Button btn_tranf;
     }
 }

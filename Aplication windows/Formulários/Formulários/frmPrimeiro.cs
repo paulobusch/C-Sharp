@@ -16,14 +16,10 @@ namespace Formulários
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_1_Click(object sender, EventArgs e)
         {
-            frmUm formulario = new frmUm(txt_nome.Text);
+            cl_geral.nome = txt_nome.Text;
+            frmUm formulario = new frmUm();
             formulario.ShowDialog();//ShowDialog() - Prioriza janeja
         }
 

@@ -8,3 +8,4 @@ C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.pdb
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.frmUm.resources
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.frmDois.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Formulários\Formulários\obj\Debug\Formulários.csprojResolveAssemblyReference.cache
