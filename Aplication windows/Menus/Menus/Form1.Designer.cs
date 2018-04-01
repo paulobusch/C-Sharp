@@ -43,6 +43,7 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.proprietiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_cmb = new System.Windows.Forms.ToolStripComboBox();
+            this.lbl_resultado = new System.Windows.Forms.Label();
             this.mn_geral.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,17 +161,29 @@
             this.mn_cmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.mn_cmb.Name = "mn_cmb";
             this.mn_cmb.Size = new System.Drawing.Size(121, 33);
+            this.mn_cmb.SelectedIndexChanged += new System.EventHandler(this.mn_cmb_SelectedIndexChanged);
+            // 
+            // lbl_resultado
+            // 
+            this.lbl_resultado.AutoSize = true;
+            this.lbl_resultado.Location = new System.Drawing.Point(13, 69);
+            this.lbl_resultado.Name = "lbl_resultado";
+            this.lbl_resultado.Size = new System.Drawing.Size(86, 20);
+            this.lbl_resultado.TabIndex = 2;
+            this.lbl_resultado.Text = "Resultado:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 385);
+            this.Controls.Add(this.lbl_resultado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.mn_geral);
             this.MainMenuStrip = this.mn_geral;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.mn_geral.ResumeLayout(false);
             this.mn_geral.PerformLayout();
             this.ResumeLayout(false);
@@ -195,6 +208,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem proprietiesToolStripMenuItem;
         private System.Windows.Forms.ToolStripComboBox mn_cmb;
+        private System.Windows.Forms.Label lbl_resultado;
     }
 }
 

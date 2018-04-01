@@ -24,12 +24,28 @@ namespace Menus
         private void button1_Click(object sender, EventArgs e)
         {
             //mn_open.Enabled = false;//-desabilita opção de menu
-
+            mn_cmb.Items.Add("Valor1");
+            mn_cmb.Items.Add("Valor2");
+            mn_cmb.Items.Add("Valor3");
         }
 
         private void mn_open_Click(object sender, EventArgs e)
         {
             MessageBox.Show("OPEN!");
+        }
+
+        private void mn_cmb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lbl_resultado.Text = mn_cmb.Text;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            mn_cmb.Items.Add("Valor 1");
+            mn_cmb.Items.Add("Valor 2");
+            mn_cmb.Items.Add("Valor 3");
+            mn_cmb.Items.Add("Valor 4");
+            mn_cmb.Items.Add("Valor 5");
         }
     }
 }
