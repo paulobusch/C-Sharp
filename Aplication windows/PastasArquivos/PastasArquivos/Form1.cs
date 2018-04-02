@@ -12,6 +12,7 @@ namespace PastasArquivos
 {
     public partial class Form1 : Form
     {
+        string pasta_trabalho = @"C:\temp";
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +20,12 @@ namespace PastasArquivos
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-
+            //verifica se a pasta existe
+            if (!Directory.Exists(pasta_trabalho))
+            {
+                //cria diretório
+                Directory.CreateDirectory(pasta_trabalho);
+            }
         }
     }
 }

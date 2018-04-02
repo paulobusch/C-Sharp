@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\bin\Debug\PastasArquivos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\bin\Debug\PastasArquivos.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\obj\Debug\PastasArquivos.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\obj\Debug\PastasArquivos.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\obj\Debug\PastasArquivos.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\obj\Debug\PastasArquivos.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\obj\Debug\PastasArquivos.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\obj\Debug\PastasArquivos.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\PastasArquivos\PastasArquivos\obj\Debug\PastasArquivos.pdb

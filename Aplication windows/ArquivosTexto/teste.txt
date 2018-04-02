@@ -1,5 +1,0 @@
-Esta frase é alfanumérica
-100
-False
-02/04/2018 14:31:19
--8388652
