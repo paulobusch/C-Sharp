@@ -32,9 +32,9 @@ namespace ArquivosTexto
         {
             //realiza leitura de arquivo de texto
             StreamReader arquivo = new StreamReader(@"C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\teste.txt",Encoding.Default);
-
-            lst_texto.Items.Add(arquivo.ReadLine());
-
+            while(!arquivo.EndOfStream){
+                lst_texto.Items.Add(arquivo.ReadLine());
+            }
             arquivo.Dispose();//fecha e desocupa memoria
         }
     }
