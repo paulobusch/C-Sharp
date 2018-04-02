@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\bin\Debug\cores.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\bin\Debug\cores.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\obj\Debug\cores.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\obj\Debug\cores.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\obj\Debug\cores.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\obj\Debug\cores.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\obj\Debug\cores.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\obj\Debug\cores.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\cores\cores\obj\Debug\cores.pdb
