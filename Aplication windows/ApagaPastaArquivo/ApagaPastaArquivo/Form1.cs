@@ -20,9 +20,10 @@ namespace ApagaPastaArquivo
         private void btn_executar_Click(object sender, EventArgs e)
         {
             //File.Delete(@"C:\tmp\dados.txt");
-            if(Directory.Exists(@"C:\tmp"))
-                Directory.Delete(@"C:\tmp",true);
-            MessageBox.Show("Terminado!");
+            string[] arquivos = Directory.GetFiles(@"C:\dados");
+            lst_arquivos.Items.AddRange(arquivos);//adiciona a partir de coleção
+            foreach (string item in arquivos)
+                File.Delete(item);
         }
     }
 }
