@@ -19,13 +19,10 @@ namespace ApagaPastaArquivo
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-            string[] lista_arquivos = Directory.GetFiles(@"C:\","*.txt");
-            foreach(string arquivo in lista_arquivos)
-            {
-                lst_arquivos.Items.Add(arquivo);
-                File.Move(arquivo, @"C:\tmp\" + Path.GetFileName(arquivo));
-            }
-            MessageBox.Show("Terminado");
+            //File.Delete(@"C:\tmp\dados.txt");
+            if(Directory.Exists(@"C:\tmp"))
+                Directory.Delete(@"C:\tmp",true);
+            MessageBox.Show("Terminado!");
         }
     }
 }
