@@ -11,6 +11,7 @@ namespace cores
 {
     public partial class Form1 : Form
     {
+        Color cor = Color.White;
         public Form1()
         {
             InitializeComponent();
@@ -18,7 +19,32 @@ namespace cores
 
         private void button1_Click(object sender, EventArgs e)
         {
-            caixa.BackColor = Color.FromArgb(255,220,253);
+            
+        }
+
+        private void ApresentarCor()
+        {
+            cor = Color.FromArgb(trackBar1.Value,trackBar2.Value,trackBar3.Value);
+            caixa.BackColor = cor;
+            txt_rgb.Text = trackBar1.Value + "," + trackBar2.Value + "," + trackBar3.Value;
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            label1.Text = trackBar1.Value.ToString();
+            ApresentarCor();
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            label2.Text = trackBar2.Value.ToString();
+            ApresentarCor();
+        }
+
+        private void trackBar3_Scroll(object sender, EventArgs e)
+        {
+            label3.Text = trackBar3.Value.ToString();
+            ApresentarCor();
         }
     }
 }
