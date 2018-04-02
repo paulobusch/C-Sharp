@@ -19,7 +19,7 @@ namespace PastasArquivos
         {
             InitializeComponent();
             //cria a pasta em meus documentos
-            pasta_config = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            pasta_config = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\config\";
         }
 
         private void btn_executar_Click(object sender, EventArgs e)
