@@ -19,6 +19,13 @@ namespace CaixaDialogo
         private void button1_Click(object sender, EventArgs e)
         {
             //MessageBox
+            MessageBox.Show("Uma mensagem para exibição");
+
+            //icone
+            MessageBox.Show("Mensagem",
+                              "Titulo",
+                              MessageBoxButtons.OK,
+                              MessageBoxIcon.Information);
         }
     }
 }

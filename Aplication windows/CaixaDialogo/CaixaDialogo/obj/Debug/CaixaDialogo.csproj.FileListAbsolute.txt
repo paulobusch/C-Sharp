@@ -1,0 +1,8 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\bin\Debug\CaixaDialogo.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\bin\Debug\CaixaDialogo.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.pdb
