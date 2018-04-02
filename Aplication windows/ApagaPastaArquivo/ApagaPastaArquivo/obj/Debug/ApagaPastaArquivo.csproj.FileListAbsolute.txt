@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\bin\Debug\ApagaPastaArquivo.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\bin\Debug\ApagaPastaArquivo.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\obj\Debug\ApagaPastaArquivo.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\obj\Debug\ApagaPastaArquivo.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\obj\Debug\ApagaPastaArquivo.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\obj\Debug\ApagaPastaArquivo.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\obj\Debug\ApagaPastaArquivo.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\obj\Debug\ApagaPastaArquivo.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ApagaPastaArquivo\ApagaPastaArquivo\obj\Debug\ApagaPastaArquivo.pdb

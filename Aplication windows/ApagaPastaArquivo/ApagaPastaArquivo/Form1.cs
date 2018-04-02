@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ApagaPastaArquivo
@@ -18,7 +19,8 @@ namespace ApagaPastaArquivo
 
         private void btn_executar_Click(object sender, EventArgs e)
         {
-
+            File.Move(@"C:\dados",@"C:\tmp\dados");
+            MessageBox.Show("Terminado");
         }
     }
 }
