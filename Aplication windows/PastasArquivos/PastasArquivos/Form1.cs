@@ -12,7 +12,9 @@ namespace PastasArquivos
 {
     public partial class Form1 : Form
     {
-        string pasta_trabalho = @"C:\temp";
+        string pasta_config = @"C:\config\";
+        string arquivo_config = "config.dat";
+
         public Form1()
         {
             InitializeComponent();
@@ -21,11 +23,16 @@ namespace PastasArquivos
         private void btn_executar_Click(object sender, EventArgs e)
         {
             //verifica se a pasta existe
-            if (!Directory.Exists(pasta_trabalho))
+            if (!Directory.Exists(pasta_config))
             {
-                //cria diretório
-                Directory.CreateDirectory(pasta_trabalho);
+                Directory.CreateDirectory(pasta_config);
             }
+            StreamWriter arquivo = new StreamWriter(pasta_config + arquivo_config,false,Encoding.Default);
+            arquivo.WriteLine(txt_nome.Text);
+            arquivo.WriteLine(data_hora.Value.ToShortDateString());
+
+            MessageBox.Show("Configurações gravadas com sucesso.");
+            arquivo.Dispose();
         }
     }
 }
