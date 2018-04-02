@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\bin\Debug\ArquivosTexto.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\bin\Debug\ArquivosTexto.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\obj\Debug\ArquivosTexto.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\obj\Debug\ArquivosTexto.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\obj\Debug\ArquivosTexto.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\obj\Debug\ArquivosTexto.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\obj\Debug\ArquivosTexto.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\obj\Debug\ArquivosTexto.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ArquivosTexto\ArquivosTexto\obj\Debug\ArquivosTexto.pdb
