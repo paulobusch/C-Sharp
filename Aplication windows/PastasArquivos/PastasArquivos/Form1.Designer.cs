@@ -31,11 +31,12 @@
             this.btn_executar = new System.Windows.Forms.Button();
             this.txt_nome = new System.Windows.Forms.TextBox();
             this.data_hora = new System.Windows.Forms.DateTimePicker();
+            this.btn_carregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_executar
             // 
-            this.btn_executar.Location = new System.Drawing.Point(430, 299);
+            this.btn_executar.Location = new System.Drawing.Point(309, 133);
             this.btn_executar.Name = "btn_executar";
             this.btn_executar.Size = new System.Drawing.Size(212, 52);
             this.btn_executar.TabIndex = 0;
@@ -58,15 +59,27 @@
             this.data_hora.Size = new System.Drawing.Size(200, 26);
             this.data_hora.TabIndex = 2;
             // 
+            // btn_carregar
+            // 
+            this.btn_carregar.Location = new System.Drawing.Point(12, 133);
+            this.btn_carregar.Name = "btn_carregar";
+            this.btn_carregar.Size = new System.Drawing.Size(212, 52);
+            this.btn_carregar.TabIndex = 3;
+            this.btn_carregar.Text = "Carregar Configurações";
+            this.btn_carregar.UseVisualStyleBackColor = true;
+            this.btn_carregar.Click += new System.EventHandler(this.btn_carregar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 363);
+            this.ClientSize = new System.Drawing.Size(533, 197);
+            this.Controls.Add(this.btn_carregar);
             this.Controls.Add(this.data_hora);
             this.Controls.Add(this.txt_nome);
             this.Controls.Add(this.btn_executar);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -78,6 +91,7 @@
         private System.Windows.Forms.Button btn_executar;
         private System.Windows.Forms.TextBox txt_nome;
         private System.Windows.Forms.DateTimePicker data_hora;
+        private System.Windows.Forms.Button btn_carregar;
     }
 }
 
