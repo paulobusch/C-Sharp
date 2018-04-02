@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\bin\Debug\ConversãoValores.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\bin\Debug\ConversãoValores.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\obj\Debug\ConversãoValores.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\obj\Debug\ConversãoValores.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\obj\Debug\ConversãoValores.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\obj\Debug\ConversãoValores.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\obj\Debug\ConversãoValores.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\obj\Debug\ConversãoValores.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\ConversãoValores\ConversãoValores\obj\Debug\ConversãoValores.pdb
