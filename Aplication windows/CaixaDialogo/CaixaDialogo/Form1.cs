@@ -81,5 +81,15 @@ namespace CaixaDialogo
             //retorna a pasta selecionada
             MessageBox.Show("A pasta escolhida foi " + caixa.SelectedPath);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ColorDialog cor = new ColorDialog();
+            cor.Color = Color.White;
+            if (cor.ShowDialog() == DialogResult.Cancel)
+                return;
+            //mostra cor
+            pictureBox1.BackColor = cor.Color;
+        }
     } 
 }
