@@ -6,3 +6,4 @@ C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.csproj.CoreCompileInputs.cache
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.exe
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\CaixaDialogo\CaixaDialogo\obj\Debug\CaixaDialogo.csprojResolveAssemblyReference.cache

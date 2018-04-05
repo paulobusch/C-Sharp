@@ -30,6 +30,13 @@ namespace CaixaDialogo
            */
 
             //caixa com resultado
+            if(MessageBox.Show("Deseja sair da aplicação?",
+                            "Sair",
+                            MessageBoxButtons.YesNo,
+                            MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }
