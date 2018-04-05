@@ -33,10 +33,20 @@ namespace CaixaDialogo
             if(MessageBox.Show("Deseja sair da aplicação?",
                             "Sair",
                             MessageBoxButtons.YesNo,
-                            MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+                            MessageBoxIcon.Question) == DialogResult.No)
+            return;
+
+            //fecha a aplicação
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog caixa = new OpenFileDialog();
+            caixa.Title = "Escolher arquivo";
+            caixa.InitialDirectory = @"C:\";
+            caixa.Filter = "Jpeg Images (*.jpg)|*.jpg|BMP files (*.bmp)|*.bmp";
+            caixa.ShowDialog();
         }
     }
 }
