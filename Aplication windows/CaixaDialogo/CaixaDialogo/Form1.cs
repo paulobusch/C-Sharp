@@ -70,5 +70,16 @@ namespace CaixaDialogo
             file.WriteLine("Teste");
             file.Dispose();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog caixa = new FolderBrowserDialog();
+            caixa.SelectedPath = @"C:\";
+            if (caixa.ShowDialog() == DialogResult.Cancel)
+                return;
+
+            //retorna a pasta selecionada
+            MessageBox.Show("A pasta escolhida foi " + caixa.SelectedPath);
+        }
     } 
 }
