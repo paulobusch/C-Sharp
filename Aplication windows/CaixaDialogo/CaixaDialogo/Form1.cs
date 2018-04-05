@@ -45,8 +45,13 @@ namespace CaixaDialogo
             OpenFileDialog caixa = new OpenFileDialog();
             caixa.Title = "Escolher arquivo";
             caixa.InitialDirectory = @"C:\";
-            caixa.Filter = "Jpeg Images (*.jpg)|*.jpg|BMP files (*.bmp)|*.bmp";
-            caixa.ShowDialog();
+            caixa.Filter = "Jpeg Images (*.jpg)|*.jpg" +
+                           "|BMP files (*.bmp)|*.bmp";
+            if (caixa.ShowDialog() == DialogResult.Cancel)
+                return;
+            //abre o arquivo
+            MessageBox.Show("O usuário escolheu o arquivo " + caixa.FileName);
+            pictureBox1.BackgroundImage = Image.FromFile(caixa.FileName);
         }
-    }
+    } 
 }
