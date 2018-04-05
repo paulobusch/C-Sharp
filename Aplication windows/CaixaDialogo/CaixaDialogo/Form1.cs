@@ -85,7 +85,7 @@ namespace CaixaDialogo
         private void button5_Click(object sender, EventArgs e)
         {
             ColorDialog cor = new ColorDialog();
-            cor.Color = Color.White;
+            cor.Color = pictureBox1.BackColor;
             if (cor.ShowDialog() == DialogResult.Cancel)
                 return;
             //mostra cor

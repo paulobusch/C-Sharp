@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\bin\Debug\Coleções.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\bin\Debug\Coleções.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\obj\Debug\Coleções.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\obj\Debug\Coleções.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\obj\Debug\Coleções.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\obj\Debug\Coleções.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\obj\Debug\Coleções.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\obj\Debug\Coleções.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Coleções\Coleções\obj\Debug\Coleções.pdb
