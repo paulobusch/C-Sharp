@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.IO;
 using System.Windows.Forms;
 
 namespace CaixaDialogo
@@ -53,6 +54,21 @@ namespace CaixaDialogo
             MessageBox.Show("O usuário escolheu o arquivo " + caixa.FileName);
             pictureBox1.BackgroundImage = Image.FromFile(caixa.FileName);
             caixa.Dispose();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog caixa = new SaveFileDialog();
+            caixa.Title = "Gravar arquivo";
+            caixa.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            caixa.Filter = "TXT files (*.txt)|*.txt";
+            if (caixa.ShowDialog() == DialogResult.Cancel)
+                return;
+            //grava o arquivo
+            string arquivo = caixa.FileName;
+            StreamWriter file = new StreamWriter(arquivo,false,Encoding.Default);
+            file.WriteLine("Teste");
+            file.Dispose();
         }
     } 
 }
