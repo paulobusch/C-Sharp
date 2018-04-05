@@ -15,5 +15,17 @@ namespace Coleções
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //array
+            string[] nomes = new string[5];
+            nomes[0] = "João";
+            nomes[1] = "Antônio";
+            nomes[2] = "Paulo";
+            nomes[3] = "Lucas";
+            nomes[4] = "Carlos";
+            listBox1.Items.AddRange(nomes);
+        }
     }
 }
