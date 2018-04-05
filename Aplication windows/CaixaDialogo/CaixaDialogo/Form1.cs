@@ -52,6 +52,7 @@ namespace CaixaDialogo
             //abre o arquivo
             MessageBox.Show("O usuário escolheu o arquivo " + caixa.FileName);
             pictureBox1.BackgroundImage = Image.FromFile(caixa.FileName);
+            caixa.Dispose();
         }
     } 
 }
