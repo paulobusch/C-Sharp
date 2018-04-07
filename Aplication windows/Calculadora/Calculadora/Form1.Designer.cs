@@ -61,6 +61,7 @@
             this.txt_operacao.Name = "txt_operacao";
             this.txt_operacao.Size = new System.Drawing.Size(366, 26);
             this.txt_operacao.TabIndex = 0;
+            this.txt_operacao.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_operacao_KeyDown);
             // 
             // lbl_algoritmo
             // 

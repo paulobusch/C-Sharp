@@ -28,6 +28,8 @@ namespace Calculadora
 
         private void btn_calcular_Click(object sender, EventArgs e)
         {
+            if (txt_operacao.Text == "")
+                return;
             int n1, n2, resultado = 0, index = 0;
             string operacao;
 
@@ -73,6 +75,13 @@ namespace Calculadora
                 index++;
             }
             MessageBox.Show("Nenhuma operação solicitada!!");
+        }
+
+        private void txt_operacao_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Return)
+                btn_calcular_Click(btn_calcular, EventArgs.Empty);
+            //EventArgs.Empty - não passa parâmetros
         }
     }
 }
