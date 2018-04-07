@@ -28,7 +28,7 @@ namespace Calculadora
 
         private void btn_calcular_Click(object sender, EventArgs e)
         {
-            int n1, n2, index = 0;
+            int n1, n2, resultado = 0, index = 0;
             string operacao;
 
             string algoritmo = txt_operacao.Text;
@@ -45,11 +45,34 @@ namespace Calculadora
                         n1 = int.Parse(algoritmo.Substring(0, index));
                         operacao = caracter.ToString();
                         n2 = int.Parse(algoritmo.Substring(index + 1));//atribui ate o fim
-                        MessageBox.Show(n1 + " - " + n2);
+
+                        //analiza operação a ser realizada
+                        switch (operacao)
+                        {
+                            case "+":
+                                resultado = n1 + n2;
+                                break;
+                            case "-":
+                                resultado = n1 - n2;
+                                break;
+                            case "*":
+                                resultado = n1 * n2;
+                                break;
+                            case "/":
+                                resultado = n1 / n2;
+                                break;
+                        }
+
+                        //apresentação do resultado final
+                        MessageBox.Show(algoritmo + " = " + resultado);
+
+                        //finaliza for uma vez que terminou os calculos
+                        return;
                     }
                 }
                 index++;
             }
+            MessageBox.Show("Nenhuma operação solicitada!!");
         }
     }
 }
