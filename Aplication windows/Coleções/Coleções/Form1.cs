@@ -25,7 +25,26 @@ namespace Coleções
             nomes[2] = "Paulo";
             nomes[3] = "Lucas";
             nomes[4] = "Carlos";
-            listBox1.Items.AddRange(nomes);
+            //listBox1.Items.AddRange(nomes);
+
+            //coleção - LIST
+            List<string> NOMES = new List<string>();
+            NOMES.Add("Paulo");
+            NOMES.Add("Antônio");
+            NOMES.Add("Rodrigo");
+            NOMES.Add("Carlos");
+            NOMES.Add("Emanuel");
+
+            //NOMES.Remove("Paulo");
+
+            NOMES.RemoveAt(2);
+
+            foreach(string item in NOMES)
+            {
+                listBox1.Items.Add(item);
+            }
+
+            MessageBox.Show("Tamanho do array: " + NOMES.Count);
         }
     }
 }
