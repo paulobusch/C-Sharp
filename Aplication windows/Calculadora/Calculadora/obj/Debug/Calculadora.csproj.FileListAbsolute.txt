@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
