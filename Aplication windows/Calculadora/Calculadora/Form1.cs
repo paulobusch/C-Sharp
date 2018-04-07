@@ -43,7 +43,8 @@ namespace Calculadora
                     {
                         //define n1 e n2
                         n1 = int.Parse(algoritmo.Substring(0, index));
-                        n2 = int.Parse(algoritmo.Substring(index, algoritmo.Length));
+                        operacao = caracter.ToString();
+                        n2 = int.Parse(algoritmo.Substring(index + 1));//atribui ate o fim
                         MessageBox.Show(n1 + " - " + n2);
                     }
                 }
