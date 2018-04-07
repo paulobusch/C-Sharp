@@ -18,28 +18,70 @@ namespace Coleções
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //array
-            string[] nomes = new string[5];
-            nomes[0] = "João";
-            nomes[1] = "Antônio";
-            nomes[2] = "Paulo";
-            nomes[3] = "Lucas";
-            nomes[4] = "Carlos";
-            //listBox1.Items.AddRange(nomes);
-
             //coleção - LIST
             List<string> NOMES = new List<string>();
             NOMES.Add("Paulo");
             NOMES.Add("Antônio");
             NOMES.Add("Rodrigo");
             NOMES.Add("Carlos");
+            NOMES.Add("Paulo");
             NOMES.Add("Emanuel");
 
-            if (NOMES.Contains("Paulo"))
+            MessageBox.Show("Ultimo index de encontro: " + NOMES.LastIndexOf("Paulo"));
+            foreach (string item in NOMES)
             {
-                MessageBox.Show("Sim");
+                listBox1.Items.Add(item);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            List<int> listaInteiros = new List<int>() {10, 20, 30};
+            foreach (int item in listaInteiros)
+            {
+                listBox1.Items.Add(item);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            HashSet<string> listaNomes = new HashSet<string>()
+            {
+                "João","Carlos","Paulo","Lucas"
+            };
+            if (!listaNomes.Add("Lucas"))
+            {
+                MessageBox.Show("Lucas já está na lista");
             }
 
+            //iteração
+            foreach (string item in listaNomes) {
+                listBox1.Items.Add(item);
             }
+                MessageBox.Show("Número de valores " + listaNomes.Count());
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> listaValores;
+            listaValores = new Dictionary<string, string>();
+
+            listaValores.Add("b1", "João");
+            listaValores.Add("b2", "Lucas");
+
+            //iteração
+            foreach (KeyValuePair<string,string> valor in listaValores)
+            {
+                listBox1.Items.Add(valor.Key);//lista chaves
+                listBox1.Items.Add(valor.Value);//lista valores
+            }
+
+            MessageBox.Show(listaValores["b1"]);
+
+            if (listaValores.ContainsKey("b2"))
+            {
+                MessageBox.Show("Contém a chave b2");
+            }
+        }
     }
 }
