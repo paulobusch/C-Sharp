@@ -52,6 +52,7 @@
             this.btn_calcular.TabIndex = 1;
             this.btn_calcular.Text = "Calcular";
             this.btn_calcular.UseVisualStyleBackColor = true;
+            this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
             // 
             // txt_operacao
             // 

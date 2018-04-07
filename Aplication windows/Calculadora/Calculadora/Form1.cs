@@ -25,5 +25,30 @@ namespace Calculadora
         {
             Application.Exit();
         }
+
+        private void btn_calcular_Click(object sender, EventArgs e)
+        {
+            int n1, n2, index = 0;
+            string operacao;
+
+            string algoritmo = txt_operacao.Text;
+
+            //entrada: 123+567
+            string sinais = "+-*/";
+            foreach(char caracter in algoritmo)
+            {
+                foreach (char sinal in sinais)
+                {
+                    if(caracter == sinal)
+                    {
+                        //define n1 e n2
+                        n1 = int.Parse(algoritmo.Substring(0, index));
+                        n2 = int.Parse(algoritmo.Substring(index, algoritmo.Length));
+                        MessageBox.Show(n1 + " - " + n2);
+                    }
+                }
+                index++;
+            }
+        }
     }
 }
