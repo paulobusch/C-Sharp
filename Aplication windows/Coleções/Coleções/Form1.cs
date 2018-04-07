@@ -35,16 +35,11 @@ namespace Coleções
             NOMES.Add("Carlos");
             NOMES.Add("Emanuel");
 
-            //NOMES.Remove("Paulo");
-
-            NOMES.RemoveAt(2);
-
-            foreach(string item in NOMES)
+            if (NOMES.Contains("Paulo"))
             {
-                listBox1.Items.Add(item);
+                MessageBox.Show("Sim");
             }
 
-            MessageBox.Show("Tamanho do array: " + NOMES.Count);
-        }
+            }
     }
 }
