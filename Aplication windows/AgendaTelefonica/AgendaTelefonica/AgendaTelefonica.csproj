@@ -43,6 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cl_geral.cs" />
+    <Compile Include="frmInserirEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInserirEditar.Designer.cs">
+      <DependentUpon>frmInserirEditar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -51,6 +57,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmInserirEditar.resx">
+      <DependentUpon>frmInserirEditar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
