@@ -103,6 +103,7 @@
             this.lst_contatos.Name = "lst_contatos";
             this.lst_contatos.Size = new System.Drawing.Size(635, 324);
             this.lst_contatos.TabIndex = 6;
+            this.lst_contatos.SelectedIndexChanged += new System.EventHandler(this.lst_contatos_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -130,6 +131,7 @@
             this.btn_apagar.TabIndex = 4;
             this.btn_apagar.Text = "Apagar";
             this.btn_apagar.UseVisualStyleBackColor = true;
+            this.btn_apagar.Click += new System.EventHandler(this.btn_apagar_Click);
             // 
             // btn_editar
             // 
@@ -139,6 +141,7 @@
             this.btn_editar.TabIndex = 5;
             this.btn_editar.Text = "Editar";
             this.btn_editar.UseVisualStyleBackColor = true;
+            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // frmInserirEditar
             // 
@@ -165,6 +168,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agenda - Inserir / Editar";
+            this.Load += new System.EventHandler(this.frmInserirEditar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

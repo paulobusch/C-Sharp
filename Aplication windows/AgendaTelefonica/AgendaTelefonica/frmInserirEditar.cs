@@ -11,6 +11,10 @@ namespace AgendaTelefonica
 {
     public partial class frmInserirEditar : Form
     {
+
+        int indice;
+        bool editar = false;
+
         public frmInserirEditar()
         {
             InitializeComponent();
@@ -33,6 +37,10 @@ namespace AgendaTelefonica
 
             //atualiza número de registros
             lbl_num_registros.Text = "Registros: " + lst_contatos.Items.Count;
+
+            //impedir edição e eliminação de registro
+            btn_apagar.Enabled = false;
+            btn_editar.Enabled = false;
         }
 
         private void btn_gravar_Click(object sender, EventArgs e)
@@ -67,6 +75,62 @@ namespace AgendaTelefonica
             txt_num.Text = "";
 
             txt_nome.Focus();
+
+            //verifica chamada para edição
+            if (editar)
+            {
+                //remove registro antigo
+                //chama evento click para apagar registro
+                btn_apagar_Click(btn_apagar,EventArgs.Empty);
+
+                editar = false;
+            }
+        }
+
+        private void frmInserirEditar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lst_contatos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //seleciona um contato
+
+            //verifica se indice é -1
+            if (lst_contatos.SelectedIndex == -1)
+                return;
+
+            //seleciona um indice na lista
+            indice = lst_contatos.SelectedIndex;
+            btn_editar.Enabled = true;
+            btn_apagar.Enabled = true;
+        }
+
+        private void btn_apagar_Click(object sender, EventArgs e)
+        {
+            //apaga o registro selecionado
+
+            //elimina o item da lista
+            cl_geral.LISTA_CONTATOS.RemoveAt(indice);
+
+            //atualizar arquivo
+            cl_geral.GravarArquivo();
+
+            //reconstruir lista
+            ConstroiLista();
+        }
+
+        private void btn_editar_Click(object sender, EventArgs e)
+        {
+            //chama registro na tela de edição
+            cl_contato contato = new cl_contato();
+            contato = cl_geral.LISTA_CONTATOS[indice];
+            //mostra itens
+            txt_nome.Text = contato.nome;
+            txt_num.Text = contato.numero;
+
+            //ativa chamada para edição
+            editar = true;
         }
     }
 }
