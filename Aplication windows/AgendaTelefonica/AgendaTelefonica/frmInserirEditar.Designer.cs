@@ -31,7 +31,7 @@
             this.btn_fechar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_nome = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_num = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_gravar = new System.Windows.Forms.Button();
             this.lst_contatos = new System.Windows.Forms.ListBox();
@@ -46,7 +46,7 @@
             this.btn_fechar.Location = new System.Drawing.Point(490, 571);
             this.btn_fechar.Name = "btn_fechar";
             this.btn_fechar.Size = new System.Drawing.Size(157, 42);
-            this.btn_fechar.TabIndex = 0;
+            this.btn_fechar.TabIndex = 3;
             this.btn_fechar.Text = "Fechar";
             this.btn_fechar.UseVisualStyleBackColor = true;
             this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
@@ -56,7 +56,7 @@
             this.label1.Location = new System.Drawing.Point(14, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 26);
-            this.label1.TabIndex = 1;
+            this.label1.TabIndex = 7;
             this.label1.Text = "Nome:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -66,22 +66,22 @@
             this.txt_nome.MaxLength = 80;
             this.txt_nome.Name = "txt_nome";
             this.txt_nome.Size = new System.Drawing.Size(432, 26);
-            this.txt_nome.TabIndex = 2;
+            this.txt_nome.TabIndex = 0;
             // 
-            // textBox1
+            // txt_num
             // 
-            this.textBox1.Location = new System.Drawing.Point(152, 74);
-            this.textBox1.MaxLength = 20;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 26);
-            this.textBox1.TabIndex = 4;
+            this.txt_num.Location = new System.Drawing.Point(152, 74);
+            this.txt_num.MaxLength = 20;
+            this.txt_num.Name = "txt_num";
+            this.txt_num.Size = new System.Drawing.Size(169, 26);
+            this.txt_num.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(14, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(132, 26);
-            this.label2.TabIndex = 3;
+            this.label2.TabIndex = 8;
             this.label2.Text = "Número:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -90,9 +90,10 @@
             this.btn_gravar.Location = new System.Drawing.Point(152, 117);
             this.btn_gravar.Name = "btn_gravar";
             this.btn_gravar.Size = new System.Drawing.Size(122, 42);
-            this.btn_gravar.TabIndex = 5;
+            this.btn_gravar.TabIndex = 2;
             this.btn_gravar.Text = "Gravar";
             this.btn_gravar.UseVisualStyleBackColor = true;
+            this.btn_gravar.Click += new System.EventHandler(this.btn_gravar_Click);
             // 
             // lst_contatos
             // 
@@ -108,7 +109,7 @@
             this.label3.Location = new System.Drawing.Point(8, 199);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(226, 26);
-            this.label3.TabIndex = 7;
+            this.label3.TabIndex = 9;
             this.label3.Text = "Lista de contatos registrados:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -117,7 +118,7 @@
             this.lbl_num_registros.Location = new System.Drawing.Point(12, 571);
             this.lbl_num_registros.Name = "lbl_num_registros";
             this.lbl_num_registros.Size = new System.Drawing.Size(134, 26);
-            this.lbl_num_registros.TabIndex = 8;
+            this.lbl_num_registros.TabIndex = 10;
             this.lbl_num_registros.Text = "Registros: 0";
             this.lbl_num_registros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -126,7 +127,7 @@
             this.btn_apagar.Location = new System.Drawing.Point(327, 571);
             this.btn_apagar.Name = "btn_apagar";
             this.btn_apagar.Size = new System.Drawing.Size(157, 42);
-            this.btn_apagar.TabIndex = 9;
+            this.btn_apagar.TabIndex = 4;
             this.btn_apagar.Text = "Apagar";
             this.btn_apagar.UseVisualStyleBackColor = true;
             // 
@@ -135,7 +136,7 @@
             this.btn_editar.Location = new System.Drawing.Point(164, 571);
             this.btn_editar.Name = "btn_editar";
             this.btn_editar.Size = new System.Drawing.Size(157, 42);
-            this.btn_editar.TabIndex = 10;
+            this.btn_editar.TabIndex = 5;
             this.btn_editar.Text = "Editar";
             this.btn_editar.UseVisualStyleBackColor = true;
             // 
@@ -152,7 +153,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lst_contatos);
             this.Controls.Add(this.btn_gravar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_num);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_nome);
             this.Controls.Add(this.label1);
@@ -174,7 +175,7 @@
         private System.Windows.Forms.Button btn_fechar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_nome;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_num;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_gravar;
         private System.Windows.Forms.ListBox lst_contatos;

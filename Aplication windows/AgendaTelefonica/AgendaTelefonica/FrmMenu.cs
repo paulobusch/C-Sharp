@@ -16,6 +16,9 @@ namespace AgendaTelefonica
             InitializeComponent();
             //apresenta versão do programa
             lbl_versao.Text = cl_geral.versao;
+
+            //carrega contatos
+            cl_geral.ConstriListaContatos();
         }
 
         private void button2_Click(object sender, EventArgs e)
