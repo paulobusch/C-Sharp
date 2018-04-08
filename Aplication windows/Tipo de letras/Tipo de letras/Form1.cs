@@ -18,8 +18,12 @@ namespace Tipo_de_letras
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Font letras = new Font("Helvetica",14,FontStyle.Bold,GraphicsUnit.Pixel);
+            //fonte
+            Font letras = new Font("Helvetica",14,FontStyle.Bold | FontStyle.Italic,GraphicsUnit.Pixel);
             label1.Font = letras;
+
+            //cor da fonte
+            label1.ForeColor = Color.Red;
         }
     }
 }

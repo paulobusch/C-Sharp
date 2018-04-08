@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\bin\Debug\Tipo de letras.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\bin\Debug\Tipo de letras.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\obj\Debug\Tipo de letras.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\obj\Debug\Tipo_de_letras.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\obj\Debug\Tipo_de_letras.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\obj\Debug\Tipo de letras.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\obj\Debug\Tipo de letras.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\obj\Debug\Tipo de letras.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\Tipo de letras\Tipo de letras\obj\Debug\Tipo de letras.pdb
