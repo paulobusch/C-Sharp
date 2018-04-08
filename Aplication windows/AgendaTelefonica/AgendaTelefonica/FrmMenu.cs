@@ -25,7 +25,9 @@ namespace AgendaTelefonica
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //abre quadro para registro
+            frmInserirEditar formulario = new frmInserirEditar();
+            formulario.ShowDialog();
         }
 
         private void btn_sair_Click(object sender, EventArgs e)

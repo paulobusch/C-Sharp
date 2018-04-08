@@ -91,6 +91,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(478, 423);
+            this.ControlBox = false;
             this.Controls.Add(this.lbl_versao);
             this.Controls.Add(this.btn_sair);
             this.Controls.Add(this.btn_pesquisar);

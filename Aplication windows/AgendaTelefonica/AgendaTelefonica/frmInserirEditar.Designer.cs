@@ -49,6 +49,7 @@
             this.btn_fechar.TabIndex = 0;
             this.btn_fechar.Text = "Fechar";
             this.btn_fechar.UseVisualStyleBackColor = true;
+            this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
             // label1
             // 
@@ -143,6 +144,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(659, 625);
+            this.ControlBox = false;
             this.Controls.Add(this.btn_editar);
             this.Controls.Add(this.btn_apagar);
             this.Controls.Add(this.lbl_num_registros);
