@@ -90,7 +90,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(478, 423);
+            this.ClientSize = new System.Drawing.Size(478, 464);
             this.ControlBox = false;
             this.Controls.Add(this.lbl_versao);
             this.Controls.Add(this.btn_sair);

@@ -18,7 +18,7 @@ namespace AgendaTelefonica
 
         private void btn_fechar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }
