@@ -68,6 +68,11 @@ namespace Calculadora
                         //apresentação do resultado final
                         MessageBox.Show(algoritmo + " = " + resultado);
 
+                        //limpa campos
+                        txt_operacao.Text = "";
+                        resultado = 0;
+                        txt_operacao.Focus();
+
                         //finaliza for uma vez que terminou os calculos
                         return;
                     }
@@ -82,6 +87,10 @@ namespace Calculadora
             if (e.KeyCode == Keys.Return)
                 btn_calcular_Click(btn_calcular, EventArgs.Empty);
             //EventArgs.Empty - não passa parâmetros
+
+            //se teclar esc apaga campo
+            if (e.KeyCode == Keys.Escape)
+                txt_operacao.Text = "";
         }
     }
 }
