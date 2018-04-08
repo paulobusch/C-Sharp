@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\bin\Debug\AgendaTelefonica.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\bin\Debug\AgendaTelefonica.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.FrmMenu.resources
