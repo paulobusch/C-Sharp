@@ -5,6 +5,7 @@ C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTel
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.CoreCompileInputs.cache
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.exe
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.pdb
-C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csprojResolveAssemblyReference.cache
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.FrmMenu.resources
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.frmInserirEditar.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.frmTexto.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.frmResultados.resources

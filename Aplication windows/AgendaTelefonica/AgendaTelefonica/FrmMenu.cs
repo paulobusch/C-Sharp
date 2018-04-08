@@ -23,7 +23,7 @@ namespace AgendaTelefonica
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            //
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,6 +39,21 @@ namespace AgendaTelefonica
             if (MessageBox.Show("Deseja sair da aplicação?", "SAIR", MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.No)
                 return;
             Application.Exit();
+        }
+
+        private void btn_pesquisar_Click(object sender, EventArgs e)
+        {
+            //executa pesquisa
+            frmTexto f = new frmTexto();
+            f.ShowDialog();
+
+            //quando fechar verifica se foi cancelado
+            if (f.cancelado)
+                return;
+
+            //abrir quadro com resultados da pesquisa
+            frmResultados r = new frmResultados(f.texto);
+            r.ShowDialog();
         }
     }
 }

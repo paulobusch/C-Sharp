@@ -13,12 +13,15 @@ namespace AgendaTelefonica
     {
 
         int indice;
-        bool editar = false;
+
+        //propriedade para edição
+        private bool editar { get; set; }
 
         public frmInserirEditar()
         {
             InitializeComponent();
             ConstroiLista();
+            editar = false;
         }
 
         private void btn_fechar_Click(object sender, EventArgs e)
@@ -131,6 +134,12 @@ namespace AgendaTelefonica
 
             //ativa chamada para edição
             editar = true;
+        }
+
+        private void txt_num_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Return)
+                btn_gravar_Click(btn_gravar, EventArgs.Empty);
         }
     }
 }

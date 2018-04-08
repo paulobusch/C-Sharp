@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btn_inserir_editar = new System.Windows.Forms.Button();
-            this.btn_pesquisar = new System.Windows.Forms.Button();
             this.btn_sair = new System.Windows.Forms.Button();
             this.lbl_versao = new System.Windows.Forms.Label();
+            this.btn_pesquisar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,16 +55,6 @@
             this.btn_inserir_editar.UseVisualStyleBackColor = true;
             this.btn_inserir_editar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btn_pesquisar
-            // 
-            this.btn_pesquisar.Location = new System.Drawing.Point(95, 172);
-            this.btn_pesquisar.Name = "btn_pesquisar";
-            this.btn_pesquisar.Size = new System.Drawing.Size(288, 73);
-            this.btn_pesquisar.TabIndex = 2;
-            this.btn_pesquisar.Text = "Pesquisar";
-            this.btn_pesquisar.UseVisualStyleBackColor = true;
-            this.btn_pesquisar.Click += new System.EventHandler(this.button2_Click);
-            // 
             // btn_sair
             // 
             this.btn_sair.Location = new System.Drawing.Point(95, 272);
@@ -85,6 +75,16 @@
             this.lbl_versao.Text = "Apresenta versão";
             this.lbl_versao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn_pesquisar
+            // 
+            this.btn_pesquisar.Location = new System.Drawing.Point(95, 175);
+            this.btn_pesquisar.Name = "btn_pesquisar";
+            this.btn_pesquisar.Size = new System.Drawing.Size(288, 73);
+            this.btn_pesquisar.TabIndex = 5;
+            this.btn_pesquisar.Text = "Pesquisar";
+            this.btn_pesquisar.UseVisualStyleBackColor = true;
+            this.btn_pesquisar.Click += new System.EventHandler(this.btn_pesquisar_Click);
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -92,9 +92,9 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(478, 464);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_pesquisar);
             this.Controls.Add(this.lbl_versao);
             this.Controls.Add(this.btn_sair);
-            this.Controls.Add(this.btn_pesquisar);
             this.Controls.Add(this.btn_inserir_editar);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
