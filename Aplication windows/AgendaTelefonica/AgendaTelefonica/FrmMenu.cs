@@ -14,6 +14,8 @@ namespace AgendaTelefonica
         public FrmMenu()
         {
             InitializeComponent();
+            //apresenta versão do programa
+            lbl_versao.Text = cl_geral.versao;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -24,6 +26,14 @@ namespace AgendaTelefonica
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            //sair da aplicação- pergunta
+            if (MessageBox.Show("Deseja sair da aplicação?", "SAIR", MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.No)
+                return;
+            Application.Exit();
         }
     }
 }

@@ -73,6 +73,7 @@
             this.btn_sair.TabIndex = 3;
             this.btn_sair.Text = "Sair";
             this.btn_sair.UseVisualStyleBackColor = true;
+            this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
             // lbl_versao
             // 
