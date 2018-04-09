@@ -46,6 +46,33 @@ namespace LigacaoBaseDados
                 MessageBox.Show("Aconteceu um erro!");
             }
         }
+
+        private void btn_insert_Click(object sender, EventArgs e)
+        {
+            //inserir um novo registro na base de dados
+
+            //nome, morada, telefone
+
+            try
+            {
+                //abre ligação
+                SqlCeConnection conexao = new SqlCeConnection(@"Data Source=C:\Users\paulo\Desktop\Projetos\C#\SQL Database\" + txt_base.Text + ".sdf");
+                conexao.Open();
+
+                string instrucao = "INSERT INTO pessoas VALUES('Paulo Ricardo Busch'," +
+                    "'Rua Principal de Moesquito'," +
+                    "'(41)99785-9624')";
+                SqlCeCommand operario = new SqlCeCommand(instrucao, conexao);
+                operario.ExecuteNonQuery();
+
+                //fecha conexão
+                conexao.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Ocorreu um erro na inserção de dados!");
+            }
+        }
     }
 }
     

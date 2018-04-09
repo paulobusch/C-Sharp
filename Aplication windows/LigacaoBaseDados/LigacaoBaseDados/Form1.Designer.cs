@@ -31,15 +31,16 @@
             this.btn_conectar = new System.Windows.Forms.Button();
             this.lst_dados = new System.Windows.Forms.ListBox();
             this.txt_base = new System.Windows.Forms.TextBox();
+            this.btn_insert = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_conectar
             // 
-            this.btn_conectar.Location = new System.Drawing.Point(531, 12);
+            this.btn_conectar.Location = new System.Drawing.Point(531, 13);
             this.btn_conectar.Name = "btn_conectar";
             this.btn_conectar.Size = new System.Drawing.Size(154, 61);
             this.btn_conectar.TabIndex = 0;
-            this.btn_conectar.Text = "Executar Query";
+            this.btn_conectar.Text = "Select";
             this.btn_conectar.UseVisualStyleBackColor = true;
             this.btn_conectar.Click += new System.EventHandler(this.btn_conectar_Click);
             // 
@@ -58,6 +59,17 @@
             this.txt_base.Name = "txt_base";
             this.txt_base.Size = new System.Drawing.Size(499, 26);
             this.txt_base.TabIndex = 2;
+            this.txt_base.Text = "dados";
+            // 
+            // btn_insert
+            // 
+            this.btn_insert.Location = new System.Drawing.Point(531, 93);
+            this.btn_insert.Name = "btn_insert";
+            this.btn_insert.Size = new System.Drawing.Size(154, 61);
+            this.btn_insert.TabIndex = 3;
+            this.btn_insert.Text = "Insert";
+            this.btn_insert.UseVisualStyleBackColor = true;
+            this.btn_insert.Click += new System.EventHandler(this.btn_insert_Click);
             // 
             // Form1
             // 
@@ -65,6 +77,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(697, 410);
+            this.Controls.Add(this.btn_insert);
             this.Controls.Add(this.txt_base);
             this.Controls.Add(this.lst_dados);
             this.Controls.Add(this.btn_conectar);
@@ -82,6 +95,7 @@
         private System.Windows.Forms.Button btn_conectar;
         private System.Windows.Forms.ListBox lst_dados;
         private System.Windows.Forms.TextBox txt_base;
+        private System.Windows.Forms.Button btn_insert;
     }
 }
 
