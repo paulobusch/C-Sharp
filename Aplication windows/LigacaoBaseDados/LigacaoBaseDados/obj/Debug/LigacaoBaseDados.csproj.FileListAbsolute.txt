@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\bin\Debug\LigacaoBaseDados.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\bin\Debug\LigacaoBaseDados.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.Form1.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.pdb
