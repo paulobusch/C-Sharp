@@ -19,28 +19,33 @@ namespace LigacaoBaseDados
 
         private void btn_conectar_Click(object sender, EventArgs e)
         {
-            //ligar
-            SqlCeConnection conexao = new SqlCeConnection(@"Data Source=C:\Users\paulo\Desktop\Projetos\C#\SQL Database\teste.sdf");
-            conexao.Open();
-
-            //executar consulta
-            DataTable dados = new DataTable();
-            SqlCeDataAdapter operario = new SqlCeDataAdapter("SELECT * FROM Filmes", conexao);
-            operario.Fill(dados);
-
-            //fechar base de dados
-            conexao.Close();
-
-
-            //apresentar resultados
-            //DataRow linhas = dados.Rows[0];
-            //linhas["Diretor"];
-            foreach (DataRow linha in dados.Rows)
+            try
             {
-                lst_dados.Items.Add(linha["Titulo"].ToString()
-                          + " - " + linha["Diretor"].ToString()
-                          + " - " + linha["Ano"].ToString());
+                //buscar todos os dados da tabela
+                SqlCeConnection conexao = new SqlCeConnection(@"Data Source=C:\Users\paulo\Desktop\Projetos\C#\SQL Database\" + txt_base.Text + ".sdf");
+                conexao.Open();
+
+                DataTable dados = new DataTable();
+                SqlCeDataAdapter operario = new SqlCeDataAdapter("SELECT * FROM pessoas", conexao);
+                operario.Fill(dados);
+
+                conexao.Close();
+
+                //apresenta dados
+                lst_dados.Items.Clear();
+                foreach (DataRow linha in dados.Rows)
+                {
+                    lst_dados.Items.Add(linha["nome"] + " - " +
+                                        linha["morada"] + " - " +
+                                        linha["telefone"]);
+                }
+            }
+            catch
+            {
+                lst_dados.Items.Clear();
+                MessageBox.Show("Aconteceu um erro!");
             }
         }
     }
 }
+    

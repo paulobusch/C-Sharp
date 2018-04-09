@@ -30,13 +30,14 @@
         {
             this.btn_conectar = new System.Windows.Forms.Button();
             this.lst_dados = new System.Windows.Forms.ListBox();
+            this.txt_base = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_conectar
             // 
-            this.btn_conectar.Location = new System.Drawing.Point(439, 12);
+            this.btn_conectar.Location = new System.Drawing.Point(531, 12);
             this.btn_conectar.Name = "btn_conectar";
-            this.btn_conectar.Size = new System.Drawing.Size(128, 42);
+            this.btn_conectar.Size = new System.Drawing.Size(154, 61);
             this.btn_conectar.TabIndex = 0;
             this.btn_conectar.Text = "Executar Query";
             this.btn_conectar.UseVisualStyleBackColor = true;
@@ -46,17 +47,25 @@
             // 
             this.lst_dados.FormattingEnabled = true;
             this.lst_dados.ItemHeight = 20;
-            this.lst_dados.Location = new System.Drawing.Point(12, 12);
+            this.lst_dados.Location = new System.Drawing.Point(12, 52);
             this.lst_dados.Name = "lst_dados";
-            this.lst_dados.Size = new System.Drawing.Size(421, 304);
+            this.lst_dados.Size = new System.Drawing.Size(499, 324);
             this.lst_dados.TabIndex = 1;
+            // 
+            // txt_base
+            // 
+            this.txt_base.Location = new System.Drawing.Point(12, 13);
+            this.txt_base.Name = "txt_base";
+            this.txt_base.Size = new System.Drawing.Size(499, 26);
+            this.txt_base.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(577, 331);
+            this.ClientSize = new System.Drawing.Size(697, 410);
+            this.Controls.Add(this.txt_base);
             this.Controls.Add(this.lst_dados);
             this.Controls.Add(this.btn_conectar);
             this.MaximizeBox = false;
@@ -64,6 +73,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -71,6 +81,7 @@
 
         private System.Windows.Forms.Button btn_conectar;
         private System.Windows.Forms.ListBox lst_dados;
+        private System.Windows.Forms.TextBox txt_base;
     }
 }
 
