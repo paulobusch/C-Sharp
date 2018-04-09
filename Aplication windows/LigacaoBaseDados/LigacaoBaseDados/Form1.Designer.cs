@@ -40,6 +40,7 @@
             this.btn_conectar.TabIndex = 0;
             this.btn_conectar.Text = "Conectar";
             this.btn_conectar.UseVisualStyleBackColor = true;
+            this.btn_conectar.Click += new System.EventHandler(this.btn_conectar_Click);
             // 
             // lbl_resultado
             // 

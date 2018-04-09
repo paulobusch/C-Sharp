@@ -7,3 +7,6 @@ C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBa
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.csproj.CoreCompileInputs.cache
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.exe
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\LigacaoBaseDados\LigacaoBaseDados\obj\Debug\LigacaoBaseDados.csproj.CopyComplete
