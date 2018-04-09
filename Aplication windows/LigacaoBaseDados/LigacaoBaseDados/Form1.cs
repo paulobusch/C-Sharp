@@ -19,19 +19,28 @@ namespace LigacaoBaseDados
 
         private void btn_conectar_Click(object sender, EventArgs e)
         {
-            //ligação a base de dados
-            SqlCeConnection ligacao = new SqlCeConnection();
-            ligacao.ConnectionString = @"Data Source=C:\Users\paulo\Desktop\Projetos\C#\SQL Database\teste.sdf";
-            ligacao.Open();
+            //ligar
+            SqlCeConnection conexao = new SqlCeConnection(@"Data Source=C:\Users\paulo\Desktop\Projetos\C#\SQL Database\teste.sdf");
+            conexao.Open();
 
-            //adaptador
-            SqlCeDataAdapter adaptador = new SqlCeDataAdapter("SELECT * FROM Filmes",ligacao);
+            //executar consulta
             DataTable dados = new DataTable();
-            adaptador.Fill(dados);
-            
-            ligacao.Close();
+            SqlCeDataAdapter operario = new SqlCeDataAdapter("SELECT * FROM Filmes", conexao);
+            operario.Fill(dados);
 
-            lbl_resultado.Text = dados.Rows.Count.ToString();
+            //fechar base de dados
+            conexao.Close();
+
+
+            //apresentar resultados
+            //DataRow linhas = dados.Rows[0];
+            //linhas["Diretor"];
+            foreach (DataRow linha in dados.Rows)
+            {
+                lst_dados.Items.Add(linha["Titulo"].ToString()
+                          + " - " + linha["Diretor"].ToString()
+                          + " - " + linha["Ano"].ToString());
+            }
         }
     }
 }

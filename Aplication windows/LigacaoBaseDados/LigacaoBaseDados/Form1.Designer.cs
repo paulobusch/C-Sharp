@@ -29,49 +29,48 @@
         private void InitializeComponent()
         {
             this.btn_conectar = new System.Windows.Forms.Button();
-            this.lbl_resultado = new System.Windows.Forms.Label();
+            this.lst_dados = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btn_conectar
             // 
-            this.btn_conectar.Location = new System.Drawing.Point(279, 12);
+            this.btn_conectar.Location = new System.Drawing.Point(439, 12);
             this.btn_conectar.Name = "btn_conectar";
             this.btn_conectar.Size = new System.Drawing.Size(128, 42);
             this.btn_conectar.TabIndex = 0;
-            this.btn_conectar.Text = "Conectar";
+            this.btn_conectar.Text = "Executar Query";
             this.btn_conectar.UseVisualStyleBackColor = true;
             this.btn_conectar.Click += new System.EventHandler(this.btn_conectar_Click);
             // 
-            // lbl_resultado
+            // lst_dados
             // 
-            this.lbl_resultado.AutoSize = true;
-            this.lbl_resultado.Location = new System.Drawing.Point(13, 12);
-            this.lbl_resultado.Name = "lbl_resultado";
-            this.lbl_resultado.Size = new System.Drawing.Size(82, 20);
-            this.lbl_resultado.TabIndex = 1;
-            this.lbl_resultado.Text = "Resultado";
+            this.lst_dados.FormattingEnabled = true;
+            this.lst_dados.ItemHeight = 20;
+            this.lst_dados.Location = new System.Drawing.Point(12, 12);
+            this.lst_dados.Name = "lst_dados";
+            this.lst_dados.Size = new System.Drawing.Size(421, 304);
+            this.lst_dados.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(419, 98);
-            this.Controls.Add(this.lbl_resultado);
+            this.ClientSize = new System.Drawing.Size(577, 331);
+            this.Controls.Add(this.lst_dados);
             this.Controls.Add(this.btn_conectar);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btn_conectar;
-        private System.Windows.Forms.Label lbl_resultado;
+        private System.Windows.Forms.ListBox lst_dados;
     }
 }
 
