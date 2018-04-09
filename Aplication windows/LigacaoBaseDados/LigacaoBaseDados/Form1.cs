@@ -23,9 +23,15 @@ namespace LigacaoBaseDados
             SqlCeConnection ligacao = new SqlCeConnection();
             ligacao.ConnectionString = @"Data Source=C:\Users\paulo\Desktop\Projetos\C#\SQL Database\teste.sdf";
             ligacao.Open();
-            lbl_resultado.Text = "Ligação efetuada com sucesso!";
 
+            //adaptador
+            SqlCeDataAdapter adaptador = new SqlCeDataAdapter("SELECT * FROM Filmes",ligacao);
+            DataTable dados = new DataTable();
+            adaptador.Fill(dados);
+            
             ligacao.Close();
+
+            lbl_resultado.Text = dados.Rows.Count.ToString();
         }
     }
 }
