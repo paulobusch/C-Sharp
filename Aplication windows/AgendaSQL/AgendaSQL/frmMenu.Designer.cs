@@ -63,6 +63,7 @@
             this.btn_sair.TabIndex = 2;
             this.btn_sair.Text = "Sair";
             this.btn_sair.UseVisualStyleBackColor = true;
+            this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
             // btn_adicionar
             // 
@@ -81,6 +82,7 @@
             this.btn_ver_tudo.TabIndex = 4;
             this.btn_ver_tudo.Text = "Visualizar Tudo";
             this.btn_ver_tudo.UseVisualStyleBackColor = true;
+            this.btn_ver_tudo.Click += new System.EventHandler(this.btn_ver_tudo_Click);
             // 
             // lbl_versao
             // 
@@ -97,17 +99,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(463, 544);
+            this.ControlBox = false;
             this.Controls.Add(this.lbl_versao);
             this.Controls.Add(this.btn_ver_tudo);
             this.Controls.Add(this.btn_adicionar);
             this.Controls.Add(this.btn_sair);
             this.Controls.Add(this.btn_pesquisar);
             this.Controls.Add(this.lbl_titulo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Agenda 1.0.0";
-            this.Load += new System.EventHandler(this.frmMenu_Load);
+            this.Text = "Agenda";
             this.ResumeLayout(false);
 
         }

@@ -14,11 +14,22 @@ namespace AgendaSQL
         public frmMenu()
         {
             InitializeComponent();
+            //apresenta versão do software
+            lbl_versao.Text = cl_vars.versao;
         }
 
-        private void frmMenu_Load(object sender, EventArgs e)
+        private void btn_ver_tudo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            //pergunta se deseja sair
+            if (MessageBox.Show("Deseja sair?","SAIR",MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.No)
+                return;
+            //sai de programa
+            Application.Exit();
         }
     }
 }

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cl_vars.cs" />
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
