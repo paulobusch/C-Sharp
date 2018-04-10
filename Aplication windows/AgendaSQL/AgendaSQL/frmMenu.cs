@@ -20,7 +20,8 @@ namespace AgendaSQL
 
         private void btn_ver_tudo_Click(object sender, EventArgs e)
         {
-
+            frmResultados f = new frmResultados();
+            f.ShowDialog();
         }
 
         private void btn_sair_Click(object sender, EventArgs e)
