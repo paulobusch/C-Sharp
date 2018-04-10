@@ -15,6 +15,11 @@ namespace AgendaSQL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            //inicia aplicação
+            cl_vars.Iniciar();
+
+            //apresenta o menu inicial
             Application.Run(new frmMenu());
         }
     }
