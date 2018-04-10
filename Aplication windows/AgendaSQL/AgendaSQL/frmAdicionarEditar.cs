@@ -64,6 +64,19 @@ namespace AgendaSQL
                 comando.Parameters.AddWithValue("@telefone",txt_telefone.Text);
                 comando.Parameters.AddWithValue("@atualizado",DateTime.Now);
 
+                //verifica se já existe contato com o mesmo nome e telefone
+                adaptador = new SqlCeDataAdapter();
+                dados = new DataTable();
+                comando.CommandText = "SELECT * FROM contatos WHERE nome = @nome AND telefone = @telefone";
+                adaptador.SelectCommand = comando;
+                adaptador.Fill(dados);
+                if(dados.Rows.Count != 0)
+                {
+                    if (MessageBox.Show("Já existe um registro com o mesmo nome e telefone.", "ATENÇÃO", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)
+                        return;
+                }
+
+
                 //texto da query
                 comando.CommandText = "INSERT INTO contatos VALUES(" +
                     "@id_contato, @nome, @telefone, @atualizado)";
@@ -75,13 +88,11 @@ namespace AgendaSQL
                 conexao.Dispose();
 
                 MessageBox.Show("Contato adicionado com sucesso!");
-                //comando.CommandText = 
-                //    "INSERT INTO contatos VALUES" +
-                //    "(" + id_contato +
-                //    ",'" + txt_nome.Text +
-                //    "','" + txt_telefone.Text +
-                //    "','" + DateTime.Now + 
-                //    "')";
+
+                //limpa campos
+                txt_nome.Text = "";
+                txt_telefone.Text = "";
+                txt_nome.Focus();
             }
             #endregion
 

@@ -43,7 +43,7 @@ namespace AgendaSQL
             comando.CommandText = 
                 "CREATE TABLE contatos(" +
                 "id_contato         int not null primary key," +
-                "nume               nvarchar(50)," +
+                "nome               nvarchar(50)," +
                 "telefone           nvarchar(20)," +
                 "atualizado         datetime" +
                 ")";
