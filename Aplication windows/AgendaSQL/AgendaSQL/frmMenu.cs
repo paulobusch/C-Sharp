@@ -15,5 +15,10 @@ namespace AgendaSQL
         {
             InitializeComponent();
         }
+
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
