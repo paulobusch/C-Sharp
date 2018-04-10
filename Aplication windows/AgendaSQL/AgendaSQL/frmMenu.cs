@@ -31,5 +31,10 @@ namespace AgendaSQL
             //sai de programa
             Application.Exit();
         }
+
+        private void btn_adicionar_Click(object sender, EventArgs e)
+        {
+            //adiciona novos registros
+        }
     }
 }

@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cl_vars.cs" />
+    <Compile Include="frmAdicionarEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdicionarEditar.Designer.cs">
+      <DependentUpon>frmAdicionarEditar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAdicionarEditar.resx">
+      <DependentUpon>frmAdicionarEditar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
