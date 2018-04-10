@@ -10,3 +10,4 @@ C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\De
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\System.Data.SqlServerCe.dll
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.CopyComplete
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmAdicionarEditar.resources

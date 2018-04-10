@@ -44,6 +44,7 @@
             this.btn_gravar.TabIndex = 0;
             this.btn_gravar.Text = "Gravar";
             this.btn_gravar.UseVisualStyleBackColor = true;
+            this.btn_gravar.Click += new System.EventHandler(this.btn_gravar_Click);
             // 
             // btn_fechar
             // 
@@ -53,6 +54,7 @@
             this.btn_fechar.TabIndex = 1;
             this.btn_fechar.Text = "Fechar";
             this.btn_fechar.UseVisualStyleBackColor = true;
+            this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
             // label1
             // 
@@ -93,7 +95,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(399, 276);
+            this.ClientSize = new System.Drawing.Size(399, 302);
             this.ControlBox = false;
             this.Controls.Add(this.txt_telefone);
             this.Controls.Add(this.label2);
@@ -107,6 +109,7 @@
             this.Name = "frmAdicionarEditar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAdicionarEditar";
+            this.Load += new System.EventHandler(this.frmAdicionarEditar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
