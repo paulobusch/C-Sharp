@@ -1,0 +1,9 @@
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\AgendaSQL.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\AgendaSQL.pdb
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmMenu.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.Properties.Resources.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.exe
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.pdb

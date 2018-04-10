@@ -59,9 +59,9 @@ namespace LigacaoBaseDados
                 SqlCeConnection conexao = new SqlCeConnection(@"Data Source=C:\Users\paulo\Desktop\Projetos\C#\SQL Database\" + txt_base.Text + ".sdf");
                 conexao.Open();
 
-                string instrucao = "INSERT INTO pessoas VALUES('Paulo Ricardo Busch'," +
-                    "'Rua Principal de Moesquito'," +
-                    "'(41)99785-9624')";
+                string instrucao = "INSERT INTO pessoas VALUES('Fabio Abreu'," +
+                    "'Rua Rodrigues'," +
+                    "'(54)99785-9624')";
                 SqlCeCommand operario = new SqlCeCommand(instrucao, conexao);
                 operario.ExecuteNonQuery();
 
@@ -71,6 +71,56 @@ namespace LigacaoBaseDados
             catch
             {
                 MessageBox.Show("Ocorreu um erro na inserção de dados!");
+            }
+        }
+
+        private void btn_update_Click(object sender, EventArgs e)
+        {
+            //atualizar dados na base
+            try
+            {
+                //abre ligação
+                SqlCeConnection conexao = new SqlCeConnection();
+                conexao.ConnectionString = @"Data Source = C:\Users\paulo\Desktop\Projetos\C#\SQL Database\" + txt_base.Text + ".sdf";
+                conexao.Open();
+
+                //atualiza registro
+                //string query = "UPDATE pessoas SET nome = 'Rodrigo' WHERE nome = 'Fabio Abreu'";
+                string query = "UPDATE pessoas SET nome = 'Paulo Ricardo', morada = 'Rua mais recente', telefone = '(41)99785-9624' WHERE nome = 'Paulo'";
+                SqlCeCommand operario = new SqlCeCommand(query,conexao);
+                operario.ExecuteNonQuery();
+
+                conexao.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Ocorreu um erro na atualização de dados!");
+            }
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            //eliminação de dados
+
+            try
+            {
+                //conexão
+                SqlCeConnection conexao = new SqlCeConnection();
+                conexao.ConnectionString = @"Data Source = C:\Users\paulo\Desktop\Projetos\C#\SQL Database\" + txt_base.Text + ".sdf";
+                conexao.Open();
+
+                //eliminação de dados
+                //string query = "DELETE FROM pessoas WHERE morada = 'Rua Rodrigues'";
+                //string query = "DELETE FROM pessoas WHERE nome = 'Fabio Abreu' AND morada = 'Rua Rodrigues'";
+                string query = "DELETE FROM pessoas WHERE nome = 'Fabio Abreu' AND morada = 'Rua Rodrigue'";
+                SqlCeCommand operario = new SqlCeCommand(query,conexao);
+                operario.ExecuteNonQuery();
+
+                conexao.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Ocorreu um erro na eliminação de dados");
             }
         }
     }

@@ -32,6 +32,8 @@
             this.lst_dados = new System.Windows.Forms.ListBox();
             this.txt_base = new System.Windows.Forms.TextBox();
             this.btn_insert = new System.Windows.Forms.Button();
+            this.btn_update = new System.Windows.Forms.Button();
+            this.btn_delete = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_conectar
@@ -71,12 +73,34 @@
             this.btn_insert.UseVisualStyleBackColor = true;
             this.btn_insert.Click += new System.EventHandler(this.btn_insert_Click);
             // 
+            // btn_update
+            // 
+            this.btn_update.Location = new System.Drawing.Point(531, 175);
+            this.btn_update.Name = "btn_update";
+            this.btn_update.Size = new System.Drawing.Size(154, 61);
+            this.btn_update.TabIndex = 4;
+            this.btn_update.Text = "Update";
+            this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
+            // 
+            // btn_delete
+            // 
+            this.btn_delete.Location = new System.Drawing.Point(531, 258);
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.Size = new System.Drawing.Size(154, 61);
+            this.btn_delete.TabIndex = 5;
+            this.btn_delete.Text = "Delete";
+            this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(697, 410);
+            this.Controls.Add(this.btn_delete);
+            this.Controls.Add(this.btn_update);
             this.Controls.Add(this.btn_insert);
             this.Controls.Add(this.txt_base);
             this.Controls.Add(this.lst_dados);
@@ -96,6 +120,8 @@
         private System.Windows.Forms.ListBox lst_dados;
         private System.Windows.Forms.TextBox txt_base;
         private System.Windows.Forms.Button btn_insert;
+        private System.Windows.Forms.Button btn_update;
+        private System.Windows.Forms.Button btn_delete;
     }
 }
 
