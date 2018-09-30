@@ -1,0 +1,16 @@
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\bin\Debug\GerenciadorVídeo.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\bin\Debug\GerenciadorVídeo.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.Properties.Resources.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.csproj.GenerateResource.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.frm_principal.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\bin\Debug\GerenciadorVídeo.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\bin\Debug\GerenciadorVídeo.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.frm_principal.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.Properties.Resources.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.csproj.GenerateResource.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\GerenciadorVídeo\GerenciadorVídeo\obj\Debug\GerenciadorVídeo.pdb

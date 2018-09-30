@@ -9,7 +9,7 @@ namespace AgendaSQL
 {
     public static partial class cl_vars
     {
-        public static string versao = "v.1.0.0";
+        public static string versao = "v.1.0.0;
         public static string pastaDados;
         public static string baseDados;
 
@@ -23,8 +23,9 @@ namespace AgendaSQL
                 Directory.CreateDirectory(pastaDados);
 
             //verifica se a base de dados existe
-            baseDados = pastaDados + @"dados.sdf";
-            if (!File.Exists(baseDados))
+            //adiciona senha a base de dados
+            baseDados = pastaDados + @"dados.sdf; Password = '95273101'";
+            if (!File.Exists(pastaDados + @"dados.sdf"))
                 criarBaseDados();    
         }
 

@@ -1,14 +1,24 @@
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\AgendaSQL.exe
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\AgendaSQL.pdb
-C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmAdicionarEditar.resources
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmMenu.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmPesquisa.resources
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmResultados.resources
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.Properties.Resources.resources
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.GenerateResource.cache
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.CopyComplete
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.exe
 C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.pdb
-C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\System.Data.SqlServerCe.dll
-C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
-C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.CopyComplete
-C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmAdicionarEditar.resources
-C:\Users\paulo\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmResultados.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csprojResolveAssemblyReference.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmAdicionarEditar.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmMenu.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmPesquisa.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.frmResultados.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.Properties.Resources.resources
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.GenerateResource.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\AgendaSQL\AgendaSQL\obj\Debug\AgendaSQL.pdb

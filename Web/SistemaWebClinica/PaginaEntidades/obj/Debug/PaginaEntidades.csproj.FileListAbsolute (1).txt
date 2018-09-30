@@ -1,0 +1,6 @@
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\SistemaWebClinica\PaginaEntidades\obj\Debug\PaginaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\SistemaWebClinica\PaginaEntidades\bin\Debug\PaginaEntidades.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\SistemaWebClinica\PaginaEntidades\obj\Debug\PaginaEntidades.csprojResolveAssemblyReference.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\SistemaWebClinica\PaginaEntidades\obj\Debug\PaginaEntidades.dll
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\SistemaWebClinica\PaginaEntidades\obj\Debug\PaginaEntidades.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\SistemaWebClinica\PaginaEntidades\obj\Debug\PaginaEntidades.csproj.CopyComplete

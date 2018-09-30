@@ -1,0 +1,6 @@
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\Estruturas\Estruturas\bin\Debug\Estruturas.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\Estruturas\Estruturas\bin\Debug\Estruturas.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\Estruturas\Estruturas\obj\Debug\Estruturas.csprojResolveAssemblyReference.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\Estruturas\Estruturas\obj\Debug\Estruturas.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\Estruturas\Estruturas\obj\Debug\Estruturas.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\Estruturas\Estruturas\obj\Debug\Estruturas.pdb

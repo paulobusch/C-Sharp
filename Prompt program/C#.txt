@@ -1,0 +1,27 @@
+Namespaces:
+ - usado para organizar tipos (classes), evita colisão de nomes
+ - É uma coleção nomeada de classes
+ - Boa prática: todas as classes devem ser definidas dentro de um namespace
+Ex: 
+Classe Console
+System.Console
+
+Classe Console (definida pelo usuário)
+Namespace MinhasClasses
+MinhasClasses.Console
+
+Diretiva using:
+trazem os namespace para o escopo do projeto
+
+Assembly / montagem:
+ - As classes são compiladas em assemblyes - são
+arquivos usualmente com extensão .dll EX:
+System.Console -> mscorelib.dll
+Para usarmos as classes de um assembly, devemos 
+adicionar uma referência no projeto, e também incluir a diretiva
+"using" adequada
+
+Referências:
+Uma referência permite que utilizemos tipos disponíveis em outros assemblyes
+FCL ou de terceiros
+FCL = Framework Class Library

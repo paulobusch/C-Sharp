@@ -50,8 +50,10 @@ namespace PastasArquivos
                 Directory.CreateDirectory(pasta_config);
             }
             StreamWriter arquivo = new StreamWriter(pasta_config + arquivo_config, false, Encoding.Default);
+
             arquivo.WriteLine(txt_nome.Text);
             arquivo.WriteLine(data_hora.Value.ToShortDateString());
+
             arquivo.Dispose();
         }
     }

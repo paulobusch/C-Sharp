@@ -1,0 +1,7 @@
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\BDProjeto\ConexaoBd\bin\Debug\ConexaoBd.exe.config
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\BDProjeto\ConexaoBd\bin\Debug\ConexaoBd.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\BDProjeto\ConexaoBd\bin\Debug\ConexaoBd.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\BDProjeto\ConexaoBd\obj\Debug\ConexaoBd.csprojResolveAssemblyReference.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\BDProjeto\ConexaoBd\obj\Debug\ConexaoBd.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\BDProjeto\ConexaoBd\obj\Debug\ConexaoBd.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Aplication windows\BDProjeto\ConexaoBd\obj\Debug\ConexaoBd.pdb

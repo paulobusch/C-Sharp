@@ -1,0 +1,6 @@
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\virtual\virtual\bin\Debug\@virtual.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\virtual\virtual\bin\Debug\@virtual.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\virtual\virtual\obj\Debug\virtual.csprojResolveAssemblyReference.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\virtual\virtual\obj\Debug\virtual.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\virtual\virtual\obj\Debug\@virtual.exe
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C#\Aplication windows\virtual\virtual\obj\Debug\@virtual.pdb

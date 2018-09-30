@@ -1,0 +1,7 @@
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\Site\Site\bin\Site.dll.config
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\Site\Site\bin\Site.dll
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\Site\Site\bin\Site.pdb
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\Site\Site\obj\Debug\Site.csprojResolveAssemblyReference.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\Site\Site\obj\Debug\Site.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\Site\Site\obj\Debug\Site.dll
+C:\Users\Paulo Ricardo Busch\Desktop\Projetos\C Sharp\Web\Site\Site\obj\Debug\Site.pdb

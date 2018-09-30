@@ -1,0 +1,39 @@
+﻿@model List<ProdutoModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+<div id="listaProduto" class="row">
+    @{
+        if (Model != null && Model.Count > 0)
+        {
+            foreach (var prod in Model)
+            {
+            <div class="col-md-6">
+                <h2>@prod.nome</h2>
+                <p>@prod.preco.ToString("c")</p>
+                <img src="~/img/@prod.imagem" alt="" style="width: 300px; height: 300px" />
+            </div>
+            }
+        }
+        else
+        {
+            <div style="text-align: center">
+                <p>Nenhum produto cadastrado.</p>
+            </div>
+        }
+    }
+</div>
+<div style="text-align: center">
+    <a id="carregarMais" class="btn btn-primary">Carregar mais</a>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var bloco = 2;
+        $('#carregarMais').click(function () {
+            $.post('@Url.Action("CarregarBlocoProduto","Home")', { 'bloco': bloco }, function (data) {
+                bloco++;
+                $('#listaProduto').append(data); 
+            });
+        });
+    });
+</script>

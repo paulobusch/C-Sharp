@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.lbl_titulo = new System.Windows.Forms.Label();
             this.btn_pesquisar = new System.Windows.Forms.Button();
             this.btn_sair = new System.Windows.Forms.Button();
             this.btn_adicionar = new System.Windows.Forms.Button();
             this.btn_ver_tudo = new System.Windows.Forms.Button();
             this.lbl_versao = new System.Windows.Forms.Label();
+            this.btn_reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_titulo
@@ -48,18 +50,19 @@
             // 
             // btn_pesquisar
             // 
-            this.btn_pesquisar.Location = new System.Drawing.Point(121, 285);
+            this.btn_pesquisar.Location = new System.Drawing.Point(121, 198);
             this.btn_pesquisar.Name = "btn_pesquisar";
-            this.btn_pesquisar.Size = new System.Drawing.Size(220, 76);
+            this.btn_pesquisar.Size = new System.Drawing.Size(220, 54);
             this.btn_pesquisar.TabIndex = 1;
             this.btn_pesquisar.Text = "Pesquisar";
             this.btn_pesquisar.UseVisualStyleBackColor = true;
+            this.btn_pesquisar.Click += new System.EventHandler(this.btn_pesquisar_Click);
             // 
             // btn_sair
             // 
-            this.btn_sair.Location = new System.Drawing.Point(121, 367);
+            this.btn_sair.Location = new System.Drawing.Point(121, 318);
             this.btn_sair.Name = "btn_sair";
-            this.btn_sair.Size = new System.Drawing.Size(220, 76);
+            this.btn_sair.Size = new System.Drawing.Size(220, 54);
             this.btn_sair.TabIndex = 2;
             this.btn_sair.Text = "Sair";
             this.btn_sair.UseVisualStyleBackColor = true;
@@ -67,9 +70,9 @@
             // 
             // btn_adicionar
             // 
-            this.btn_adicionar.Location = new System.Drawing.Point(121, 203);
+            this.btn_adicionar.Location = new System.Drawing.Point(121, 138);
             this.btn_adicionar.Name = "btn_adicionar";
-            this.btn_adicionar.Size = new System.Drawing.Size(220, 76);
+            this.btn_adicionar.Size = new System.Drawing.Size(220, 54);
             this.btn_adicionar.TabIndex = 3;
             this.btn_adicionar.Text = "Adicionar";
             this.btn_adicionar.UseVisualStyleBackColor = true;
@@ -77,9 +80,9 @@
             // 
             // btn_ver_tudo
             // 
-            this.btn_ver_tudo.Location = new System.Drawing.Point(121, 121);
+            this.btn_ver_tudo.Location = new System.Drawing.Point(121, 78);
             this.btn_ver_tudo.Name = "btn_ver_tudo";
-            this.btn_ver_tudo.Size = new System.Drawing.Size(220, 76);
+            this.btn_ver_tudo.Size = new System.Drawing.Size(220, 54);
             this.btn_ver_tudo.TabIndex = 4;
             this.btn_ver_tudo.Text = "Visualizar Tudo";
             this.btn_ver_tudo.UseVisualStyleBackColor = true;
@@ -87,20 +90,31 @@
             // 
             // lbl_versao
             // 
-            this.lbl_versao.Location = new System.Drawing.Point(112, 460);
+            this.lbl_versao.Location = new System.Drawing.Point(112, 395);
             this.lbl_versao.Name = "lbl_versao";
             this.lbl_versao.Size = new System.Drawing.Size(238, 30);
             this.lbl_versao.TabIndex = 5;
             this.lbl_versao.Text = "versão";
             this.lbl_versao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn_reset
+            // 
+            this.btn_reset.Location = new System.Drawing.Point(121, 258);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(220, 54);
+            this.btn_reset.TabIndex = 6;
+            this.btn_reset.Text = "Apagar tudo";
+            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(463, 544);
+            this.ClientSize = new System.Drawing.Size(463, 498);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.lbl_versao);
             this.Controls.Add(this.btn_ver_tudo);
             this.Controls.Add(this.btn_adicionar);
@@ -108,6 +122,7 @@
             this.Controls.Add(this.btn_pesquisar);
             this.Controls.Add(this.lbl_titulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMenu";
@@ -125,6 +140,7 @@
         private System.Windows.Forms.Button btn_adicionar;
         private System.Windows.Forms.Button btn_ver_tudo;
         private System.Windows.Forms.Label lbl_versao;
+        private System.Windows.Forms.Button btn_reset;
     }
 }
 

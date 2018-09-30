@@ -99,7 +99,40 @@ namespace AgendaSQL
             #region EDITAR CONTATO
             else
             {
+                SqlCeCommand comando = new SqlCeCommand();
+                comando.Connection = conexao;
 
+                comando.Parameters.AddWithValue("@id_contato", id_contato);
+                comando.Parameters.AddWithValue("@nome",txt_nome.Text);
+                comando.Parameters.AddWithValue("@telefone",txt_telefone.Text);
+                comando.Parameters.AddWithValue("@atualizacao",DateTime.Now);
+
+                //verifica se existe registro na base de dados
+                DataTable dados = new DataTable();
+                comando.CommandText = "SELECT * FROM contatos WHERE" +
+                    " nome = @nome AND id_contato <> @id_contato";
+                SqlCeDataAdapter adaptador = new SqlCeDataAdapter();
+                adaptador.SelectCommand = comando;
+                adaptador.Fill(dados);
+
+                if (dados.Rows.Count != 0)
+                {
+                    //foi encontrado um registro com o mesmo nome
+                    if (MessageBox.Show("Já existe um registro com o mesmo nome.", "ATENÇÃO", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)
+                        return;
+                }
+
+                //editar o registro selecionado
+                comando.CommandText = "UPDATE contatos SET " +
+                    "nome = @nome, " +
+                    "telefone = @telefone, " +
+                    "atualizado = @atualizacao " +
+                    "WHERE id_contato = @id_contato";
+                comando.ExecuteNonQuery();
+
+                comando.Dispose();
+                conexao.Dispose();
+                this.Close();
             }
             #endregion
         }
@@ -120,7 +153,22 @@ namespace AgendaSQL
         private void ApresentaContato()
         {
             //apresenta contato a ser editado
+            SqlCeConnection conexao = new SqlCeConnection("Data Source = " + cl_vars.baseDados);
+            conexao.Open();
 
+            DataTable dados = new DataTable();
+
+            SqlCeDataAdapter adaptador = new SqlCeDataAdapter(
+                "SELECT * FROM contatos WHERE id_contato = " + id_contato,
+                conexao);
+            adaptador.Fill(dados);
+
+            adaptador.Dispose();
+            conexao.Dispose();
+
+            //apresentar dados
+            txt_nome.Text = dados.Rows[0]["nome"].ToString();
+            txt_telefone.Text = dados.Rows[0]["telefone"].ToString();
         }
     }
 }

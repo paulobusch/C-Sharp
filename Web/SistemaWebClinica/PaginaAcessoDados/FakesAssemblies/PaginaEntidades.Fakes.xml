@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PaginaEntidades.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:PaginaEntidades.Fakes.ShimEmpregado">
+            <summary>Tipo de correção de PaginaEntidades.Empregado</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimEmpregado.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimEmpregado.#ctor(PaginaEntidades.Empregado)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.ShimEmpregado.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.ApMaternoGet">
+            <summary>Define correção de Empregado.get_ApMaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.ApMaternoSetString">
+            <summary>Define correção de Empregado.set_ApMaterno(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.ApPaternoGet">
+            <summary>Define correção de Empregado.get_ApPaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.ApPaternoSetString">
+            <summary>Define correção de Empregado.set_ApPaterno(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.EstadoGet">
+            <summary>Define correção de Empregado.get_Estado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.EstadoSetBoolean">
+            <summary>Define correção de Empregado.set_Estado(Boolean value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.IDGet">
+            <summary>Define correção de Empregado.get_ID()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.IDSetInt32">
+            <summary>Define correção de Empregado.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.ImagemGet">
+            <summary>Define correção de Empregado.get_Imagem()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.ImagemSetString">
+            <summary>Define correção de Empregado.set_Imagem(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.NomeGet">
+            <summary>Define correção de Empregado.get_Nome()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.NomeSetString">
+            <summary>Define correção de Empregado.set_Nome(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.NroDocumentoGet">
+            <summary>Define correção de Empregado.get_NroDocumento()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.NroDocumentoSetString">
+            <summary>Define correção de Empregado.set_NroDocumento(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.RTipoEmpregadoGet">
+            <summary>Define correção de Empregado.get_RTipoEmpregado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.RTipoEmpregadoSetTipoEmpregado">
+            <summary>Define correção de Empregado.set_RTipoEmpregado(TipoEmpregado value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.SenhaGet">
+            <summary>Define correção de Empregado.get_Senha()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.SenhaSetString">
+            <summary>Define correção de Empregado.set_Senha(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.UsuarioGet">
+            <summary>Define correção de Empregado.get_Usuario()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.AllInstances.UsuarioSetString">
+            <summary>Define correção de Empregado.set_Usuario(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.ApMaternoGet">
+            <summary>Define correção de Empregado.get_ApMaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.ApMaternoSetString">
+            <summary>Define correção de Empregado.set_ApMaterno(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.ApPaternoGet">
+            <summary>Define correção de Empregado.get_ApPaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.ApPaternoSetString">
+            <summary>Define correção de Empregado.set_ApPaterno(String value)</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimEmpregado.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimEmpregado.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.Constructor">
+            <summary>Define correção de Empregado.Empregado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.ConstructorInt32TipoEmpregadoStringStringStringStringBooleanStringStringString">
+            <summary>Define correção de Empregado.Empregado(Int32 ID, TipoEmpregado RTipoEmpregado, String Nome, String ApPaterno, String ApMaterno, String NroDocumento, Boolean Estado, String Imagem, String Usuario, String Senha)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.EstadoGet">
+            <summary>Define correção de Empregado.get_Estado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.EstadoSetBoolean">
+            <summary>Define correção de Empregado.set_Estado(Boolean value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.IDGet">
+            <summary>Define correção de Empregado.get_ID()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.IDSetInt32">
+            <summary>Define correção de Empregado.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.ImagemGet">
+            <summary>Define correção de Empregado.get_Imagem()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.ImagemSetString">
+            <summary>Define correção de Empregado.set_Imagem(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.NomeGet">
+            <summary>Define correção de Empregado.get_Nome()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.NomeSetString">
+            <summary>Define correção de Empregado.set_Nome(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.NroDocumentoGet">
+            <summary>Define correção de Empregado.get_NroDocumento()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.NroDocumentoSetString">
+            <summary>Define correção de Empregado.set_NroDocumento(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.RTipoEmpregadoGet">
+            <summary>Define correção de Empregado.get_RTipoEmpregado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.RTipoEmpregadoSetTipoEmpregado">
+            <summary>Define correção de Empregado.set_RTipoEmpregado(TipoEmpregado value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.SenhaGet">
+            <summary>Define correção de Empregado.get_Senha()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.SenhaSetString">
+            <summary>Define correção de Empregado.set_Senha(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.UsuarioGet">
+            <summary>Define correção de Empregado.get_Usuario()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimEmpregado.UsuarioSetString">
+            <summary>Define correção de Empregado.set_Usuario(String value)</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.ShimPaciente">
+            <summary>Tipo de correção de PaginaEntidades.Paciente</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimPaciente.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimPaciente.#ctor(PaginaEntidades.Paciente)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.ShimPaciente.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.DirecaoGet">
+            <summary>Define correção de Paciente.get_Direcao()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.DirecaoSetString">
+            <summary>Define correção de Paciente.set_Direcao(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.EstadoGet">
+            <summary>Define correção de Paciente.get_Estado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.EstadoSetBoolean">
+            <summary>Define correção de Paciente.set_Estado(Boolean value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.IdadeGet">
+            <summary>Define correção de Paciente.get_Idade()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.IdadeSetInt32">
+            <summary>Define correção de Paciente.set_Idade(Int32 value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.ImagemGet">
+            <summary>Define correção de Paciente.get_Imagem()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.ImagemSetString">
+            <summary>Define correção de Paciente.set_Imagem(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NDocumentoGet">
+            <summary>Define correção de Paciente.get_NDocumento()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NDocumentoSetString">
+            <summary>Define correção de Paciente.set_NDocumento(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NMaternoGet">
+            <summary>Define correção de Paciente.get_NMaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NMaternoSetString">
+            <summary>Define correção de Paciente.set_NMaterno(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NPaternoGet">
+            <summary>Define correção de Paciente.get_NPaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NPaternoSetString">
+            <summary>Define correção de Paciente.set_NPaterno(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NomeGet">
+            <summary>Define correção de Paciente.get_Nome()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.NomeSetString">
+            <summary>Define correção de Paciente.set_Nome(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.SexoGet">
+            <summary>Define correção de Paciente.get_Sexo()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.SexoSetChar">
+            <summary>Define correção de Paciente.set_Sexo(Char value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.TelefoneGet">
+            <summary>Define correção de Paciente.get_Telefone()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.TelefoneSetString">
+            <summary>Define correção de Paciente.set_Telefone(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.idPacienteGet">
+            <summary>Define correção de Paciente.get_idPaciente()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.AllInstances.idPacienteSetInt32">
+            <summary>Define correção de Paciente.set_idPaciente(Int32 value)</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimPaciente.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimPaciente.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.Constructor">
+            <summary>Define correção de Paciente.Paciente()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.DirecaoGet">
+            <summary>Define correção de Paciente.get_Direcao()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.DirecaoSetString">
+            <summary>Define correção de Paciente.set_Direcao(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.EstadoGet">
+            <summary>Define correção de Paciente.get_Estado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.EstadoSetBoolean">
+            <summary>Define correção de Paciente.set_Estado(Boolean value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.IdadeGet">
+            <summary>Define correção de Paciente.get_Idade()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.IdadeSetInt32">
+            <summary>Define correção de Paciente.set_Idade(Int32 value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.ImagemGet">
+            <summary>Define correção de Paciente.get_Imagem()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.ImagemSetString">
+            <summary>Define correção de Paciente.set_Imagem(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NDocumentoGet">
+            <summary>Define correção de Paciente.get_NDocumento()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NDocumentoSetString">
+            <summary>Define correção de Paciente.set_NDocumento(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NMaternoGet">
+            <summary>Define correção de Paciente.get_NMaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NMaternoSetString">
+            <summary>Define correção de Paciente.set_NMaterno(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NPaternoGet">
+            <summary>Define correção de Paciente.get_NPaterno()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NPaternoSetString">
+            <summary>Define correção de Paciente.set_NPaterno(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NomeGet">
+            <summary>Define correção de Paciente.get_Nome()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.NomeSetString">
+            <summary>Define correção de Paciente.set_Nome(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.SexoGet">
+            <summary>Define correção de Paciente.get_Sexo()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.SexoSetChar">
+            <summary>Define correção de Paciente.set_Sexo(Char value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.TelefoneGet">
+            <summary>Define correção de Paciente.get_Telefone()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.TelefoneSetString">
+            <summary>Define correção de Paciente.set_Telefone(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.idPacienteGet">
+            <summary>Define correção de Paciente.get_idPaciente()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimPaciente.idPacienteSetInt32">
+            <summary>Define correção de Paciente.set_idPaciente(Int32 value)</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.ShimTipoEmpregado">
+            <summary>Tipo de correção de PaginaEntidades.TipoEmpregado</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimTipoEmpregado.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimTipoEmpregado.#ctor(PaginaEntidades.TipoEmpregado)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.ShimTipoEmpregado.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.AllInstances.DescricaoGet">
+            <summary>Define correção de TipoEmpregado.get_Descricao()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.AllInstances.DescricaoSetString">
+            <summary>Define correção de TipoEmpregado.set_Descricao(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.AllInstances.EstadoGet">
+            <summary>Define correção de TipoEmpregado.get_Estado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.AllInstances.EstadoSetBoolean">
+            <summary>Define correção de TipoEmpregado.set_Estado(Boolean value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.AllInstances.IDGet">
+            <summary>Define correção de TipoEmpregado.get_ID()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.AllInstances.IDSetInt32">
+            <summary>Define correção de TipoEmpregado.set_ID(Int32 value)</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimTipoEmpregado.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.ShimTipoEmpregado.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.Constructor">
+            <summary>Define correção de TipoEmpregado.TipoEmpregado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.ConstructorInt32StringBoolean">
+            <summary>Define correção de TipoEmpregado.TipoEmpregado(Int32 ID, String Descricao, Boolean Estado)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.DescricaoGet">
+            <summary>Define correção de TipoEmpregado.get_Descricao()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.DescricaoSetString">
+            <summary>Define correção de TipoEmpregado.set_Descricao(String value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.EstadoGet">
+            <summary>Define correção de TipoEmpregado.get_Estado()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.EstadoSetBoolean">
+            <summary>Define correção de TipoEmpregado.set_Estado(Boolean value)</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.IDGet">
+            <summary>Define correção de TipoEmpregado.get_ID()</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.ShimTipoEmpregado.IDSetInt32">
+            <summary>Define correção de TipoEmpregado.set_ID(Int32 value)</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.StubEmpregado">
+            <summary>Tipo stub de PaginaEntidades.Empregado</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubEmpregado.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubEmpregado.#ctor(System.Int32,PaginaEntidades.TipoEmpregado,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubEmpregado.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubEmpregado.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubEmpregado</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubEmpregado.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubEmpregado.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.StubPaciente">
+            <summary>Tipo stub de PaginaEntidades.Paciente</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubPaciente.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubPaciente.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubPaciente.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubPaciente</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubPaciente.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubPaciente.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:PaginaEntidades.Fakes.StubTipoEmpregado">
+            <summary>Tipo stub de PaginaEntidades.TipoEmpregado</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubTipoEmpregado.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubTipoEmpregado.#ctor(System.Int32,System.String,System.Boolean)">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubTipoEmpregado.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:PaginaEntidades.Fakes.StubTipoEmpregado.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubTipoEmpregado</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubTipoEmpregado.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:PaginaEntidades.Fakes.StubTipoEmpregado.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+    </members>
+</doc>
